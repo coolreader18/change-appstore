@@ -1,4 +1,5 @@
 
 makefile.bat
-v1.0 HBAS Repo Changer.zip
 *.zip
+hbas_repo_changer_dbg.elf
+hbas_repo_changer.elf
