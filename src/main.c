@@ -66,7 +66,7 @@ int Menu_Main(void)
 				launchKeyboard(&returnedString);
 				fp = freopen("sd:/wiiu/apps/appstore/repository.txt", "w", fp);
 				fprintf(fp, returnedString);
-				printf("Changed repository to custom url \n")
+				printf("Changed repository to custom url \n");
 			}
 		}
 	}
