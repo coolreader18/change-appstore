@@ -1,6 +1,5 @@
 
 makefile.bat
 *.zip
-hbas_repo_changer_dbg.elf
-hbas_repo_changer.elf
+*.elf
 build/
