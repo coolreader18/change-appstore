@@ -1,5 +1,6 @@
 #include <easy/easy.h>
 #include <stdio.h>
+#include "dynamic_libs/os_functions.h"
 
 int Menu_Main(void)
 {
@@ -59,6 +60,13 @@ int Menu_Main(void)
 				update_buttons();
 				if (!button_pressed(VPAD_BUTTON_Y))
 					break;
+			}
+			if (button_pressed(VPAD_BUTTON_R)){
+				char returnedString[256];
+				launchKeyboard(&returnedString);
+				fp = freopen("sd:/wiiu/apps/appstore/repository.txt", "w", fp);
+				fprintf(fp, returnedString);
+				printf("Changed repository to custom url \n")
 			}
 		}
 	}

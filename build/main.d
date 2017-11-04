@@ -33,7 +33,8 @@ main.o: c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/main.c \
  c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/dynamic_libs/gx2_functions.h \
  c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/dynamic_libs/gx2_types.h \
  c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/dynamic_libs/acp_functions.h \
- c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/system/memory.h
+ c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/system/memory.h \
+ c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/dynamic_libs/os_functions.h
 
 c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/easy/easy.h:
 
@@ -104,3 +105,5 @@ c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/dynamic_libs/gx2_types.
 c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/dynamic_libs/acp_functions.h:
 
 c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/system/memory.h:
+
+c:/Users/njo/Documents/Coding/WiiU/HBAS-repo-changer/src/dynamic_libs/os_functions.h:
