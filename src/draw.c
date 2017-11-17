@@ -36,16 +36,11 @@ void fillScreen(char r,char g,char b,char a)
 	OSScreenClearBufferEx(1, (r << 24) | (g << 16) | (b << 8) | a);
 }
 
-//Rendering in
+//Rendering in 
 void drawPixel(int x, int y, char r, char g, char b, char a)
 {
-	unsigned int coreinit_handle;
-OSDynLoad_Acquire("coreinit.rpl", &coreinit_handle);
-unsigned int (*OSScreenPutPixelEx)(unsigned int bufferNum, unsigned int posX, unsigned int posY, uint32_t color);
-OSDynLoad_FindExport(coreinit_handle, 0, "OSScreenPutPixelEx", &OSScreenPutPixelEx);
-uint32_t num = (r << 24) | (g << 16) | (b << 8) | a;
-OSScreenPutPixelEx(0,x,y,num);
-OSScreenPutPixelEx(1,x,y,num);
+	OSScreenPutPixelEx(0, x, y, (r << 24) | (g << 16) | (b << 8) | a);
+	OSScreenPutPixelEx(1, x, y, (r << 24) | (g << 16) | (b << 8) | a);
 }
 
 void drawLine(int x1, int y1, int x2, int y2, char r, char g, char b, char a)
