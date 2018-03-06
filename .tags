@@ -1,0 +1,1060 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AF_INET	.\src\dynamic_libs\socket_functions.h	37;"	d
+ALIGN32	.\src\utils\utils.h	33;"	d
+ALIGN4	.\src\utils\utils.h	32;"	d
+AOC_TITLE_SIZE	.\src\dynamic_libs\aoc_functions.h	33;"	d
+AOC_TitleListType	.\src\dynamic_libs\aoc_functions.h	/^} AOC_TitleListType;$/;"	t	typeref:struct:__anon3
+BUFFER_SIDE_OFFSET	.\src\screen\tty.c	18;"	d	file:
+BUF_ADDR_0	.\src\screen\tty.c	14;"	d	file:
+BUF_ADDR_1	.\src\screen\tty.c	15;"	d	file:
+BUF_SIZE_0	.\src\screen\tty.c	16;"	d	file:
+BUF_SIZE_1	.\src\screen\tty.c	17;"	d	file:
+BUS_SPEED	.\src\dynamic_libs\os_functions.h	35;"	d
+CAFE_OS_SD_PATH	.\src\common\common.h	10;"	d
+CHAR_SIZE_X	.\src\screen\tty.c	19;"	d	file:
+CHAR_SIZE_Y	.\src\screen\tty.c	20;"	d	file:
+COL_MAX	.\src\screen\tty.c	22;"	d	file:
+COMMON_H	.\src\common\common.h	2;"	d
+CheckFile	.\src\fs\fs_utils.c	/^int CheckFile(const char * filepath)$/;"	f
+CreateSubfolder	.\src\fs\fs_utils.c	/^int CreateSubfolder(const char * fullpath)$/;"	f
+DRAW_H	.\src\draw.h	2;"	d
+DegToRad	.\src\utils\utils.h	29;"	d
+ELF_DATA_ADDR	.\src\common\common.h	18;"	d
+ELF_DATA_SIZE	.\src\common\common.h	19;"	d
+EXIT_HBL_EXIT	.\src\common\common.h	28;"	d
+EXIT_RELAUNCH_ON_LOAD	.\src\common\common.h	29;"	d
+EXIT_SUCCESS	.\src\common\common.h	26;"	d
+EXPORT_DECL	.\src\dynamic_libs\os_functions.h	46;"	d
+EXPORT_FUNC_WRITE	.\src\dynamic_libs\os_functions.h	50;"	d
+EXPORT_VAR	.\src\dynamic_libs\os_functions.h	47;"	d
+FLUSH_DATA_BLOCK	.\src\dynamic_libs\os_functions.h	43;"	d
+FSDirEntry	.\src\common\fs_defs.h	/^} FSDirEntry;$/;"	t	typeref:struct:__anon2
+FSDirEntry	.\src\dynamic_libs\fs_defs.h	/^} FSDirEntry;$/;"	t	typeref:struct:__anon5
+FSStat	.\src\common\fs_defs.h	/^} __attribute__((packed)) FSStat;$/;"	t	typeref:struct:__anon1
+FSStat	.\src\dynamic_libs\fs_defs.h	/^} __attribute__((packed)) FSStat;$/;"	t	typeref:struct:__anon4
+FS_ALIGN	.\src\fs\sd_fat_devoptab.c	37;"	d	file:
+FS_ALIGNMENT	.\src\fs\sd_fat_devoptab.c	36;"	d	file:
+FS_CLIENT_SIZE	.\src\common\fs_defs.h	32;"	d
+FS_CLIENT_SIZE	.\src\dynamic_libs\fs_defs.h	31;"	d
+FS_CMD_BLOCK_SIZE	.\src\common\fs_defs.h	33;"	d
+FS_CMD_BLOCK_SIZE	.\src\dynamic_libs\fs_defs.h	32;"	d
+FS_DEFS_H	.\src\common\fs_defs.h	2;"	d
+FS_DEFS_H	.\src\dynamic_libs\fs_defs.h	2;"	d
+FS_MAX_ARGPATH_SIZE	.\src\common\fs_defs.h	15;"	d
+FS_MAX_ARGPATH_SIZE	.\src\dynamic_libs\fs_defs.h	15;"	d
+FS_MAX_ENTNAME_SIZE	.\src\common\fs_defs.h	25;"	d
+FS_MAX_ENTNAME_SIZE	.\src\dynamic_libs\fs_defs.h	25;"	d
+FS_MAX_FULLPATH_SIZE	.\src\common\fs_defs.h	14;"	d
+FS_MAX_FULLPATH_SIZE	.\src\dynamic_libs\fs_defs.h	14;"	d
+FS_MAX_LOCALPATH_SIZE	.\src\common\fs_defs.h	12;"	d
+FS_MAX_LOCALPATH_SIZE	.\src\dynamic_libs\fs_defs.h	12;"	d
+FS_MAX_MOUNTPATH_SIZE	.\src\common\fs_defs.h	13;"	d
+FS_MAX_MOUNTPATH_SIZE	.\src\dynamic_libs\fs_defs.h	13;"	d
+FS_MOUNT_SOURCE_SIZE	.\src\common\fs_defs.h	31;"	d
+FS_MOUNT_SOURCE_SIZE	.\src\dynamic_libs\fs_defs.h	30;"	d
+FS_RET_ALL_ERROR	.\src\common\fs_defs.h	20;"	d
+FS_RET_ALL_ERROR	.\src\dynamic_libs\fs_defs.h	20;"	d
+FS_RET_NO_ERROR	.\src\common\fs_defs.h	19;"	d
+FS_RET_NO_ERROR	.\src\dynamic_libs\fs_defs.h	19;"	d
+FS_RET_UNSUPPORTED_CMD	.\src\common\fs_defs.h	18;"	d
+FS_RET_UNSUPPORTED_CMD	.\src\dynamic_libs\fs_defs.h	18;"	d
+FS_SOURCETYPE_EXTERNAL	.\src\common\fs_defs.h	27;"	d
+FS_SOURCETYPE_EXTERNAL	.\src\dynamic_libs\fs_defs.h	27;"	d
+FS_SOURCETYPE_HFIO	.\src\common\fs_defs.h	28;"	d
+FS_SOURCETYPE_HFIO	.\src\common\fs_defs.h	29;"	d
+FS_SOURCETYPE_HFIO	.\src\dynamic_libs\fs_defs.h	28;"	d
+FS_STATUS_OK	.\src\common\fs_defs.h	17;"	d
+FS_STATUS_OK	.\src\dynamic_libs\fs_defs.h	17;"	d
+FS_STAT_FLAG_IS_DIRECTORY	.\src\common\fs_defs.h	22;"	d
+FS_STAT_FLAG_IS_DIRECTORY	.\src\dynamic_libs\fs_defs.h	22;"	d
+FlushBlock	.\src\utils\utils.h	11;"	d
+GX2AttribStream	.\src\dynamic_libs\gx2_types.h	/^} GX2AttribStream;$/;"	t	typeref:struct:_GX2AttribStream
+GX2AttribVar	.\src\dynamic_libs\gx2_types.h	/^} GX2AttribVar;$/;"	t	typeref:struct:_GX2AttribVar
+GX2Color	.\src\dynamic_libs\gx2_types.h	/^} GX2Color;$/;"	t	typeref:struct:_GX2Color
+GX2ColorBuffer	.\src\dynamic_libs\gx2_types.h	/^} GX2ColorBuffer;$/;"	t	typeref:struct:_GX2ColorBuffer
+GX2ColorF32	.\src\dynamic_libs\gx2_types.h	/^} GX2ColorF32;$/;"	t	typeref:struct:_GX2ColorF32
+GX2ContextState	.\src\dynamic_libs\gx2_types.h	/^} GX2ContextState;$/;"	t	typeref:struct:_GX2ContextState
+GX2DepthBuffer	.\src\dynamic_libs\gx2_types.h	/^} GX2DepthBuffer;$/;"	t	typeref:struct:_GX2DepthBuffer
+GX2FetchShader	.\src\dynamic_libs\gx2_types.h	/^} GX2FetchShader;$/;"	t	typeref:struct:_GX2FetchShader
+GX2InitAttribStream	.\src\dynamic_libs\gx2_functions.h	/^static inline void GX2InitAttribStream(GX2AttribStream* attr, u32 location, u32 buffer, u32 offset, s32 format)$/;"	f
+GX2InitColorBuffer	.\src\dynamic_libs\gx2_functions.h	/^static inline void GX2InitColorBuffer(GX2ColorBuffer *colorBuffer, s32 dimension, u32 width, u32 height, u32 depth, s32 format, s32 aa)$/;"	f
+GX2InitDepthBuffer	.\src\dynamic_libs\gx2_functions.h	/^static inline void GX2InitDepthBuffer(GX2DepthBuffer *depthBuffer, s32 dimension, u32 width, u32 height, u32 depth, s32 format, s32 aa)$/;"	f
+GX2InitTexture	.\src\dynamic_libs\gx2_functions.h	/^static inline void GX2InitTexture(GX2Texture *tex, u32 width, u32 height, u32 depth, u32 num_mips, s32 format, s32 dimension, s32 tile)$/;"	f
+GX2PixelShader	.\src\dynamic_libs\gx2_types.h	/^} GX2PixelShader;$/;"	t	typeref:struct:_GX2PixelShader
+GX2Sampler	.\src\dynamic_libs\gx2_types.h	/^} GX2Sampler;$/;"	t	typeref:struct:_GX2Sampler
+GX2SamplerVar	.\src\dynamic_libs\gx2_types.h	/^} GX2SamplerVar;$/;"	t	typeref:struct:_GX2SamplerVar
+GX2Surface	.\src\dynamic_libs\gx2_types.h	/^} GX2Surface;$/;"	t	typeref:struct:_GX2Surface
+GX2Texture	.\src\dynamic_libs\gx2_types.h	/^} GX2Texture;$/;"	t	typeref:struct:_GX2Texture
+GX2UniformBlock	.\src\dynamic_libs\gx2_types.h	/^} GX2UniformBlock;$/;"	t	typeref:struct:_GX2UniformBlock
+GX2UniformInitialValue	.\src\dynamic_libs\gx2_types.h	/^} GX2UniformInitialValue;$/;"	t	typeref:struct:_GX2UniformInitialValue
+GX2UniformVar	.\src\dynamic_libs\gx2_types.h	/^} GX2UniformVar;$/;"	t	typeref:struct:_GX2UniformVar
+GX2VertexShader	.\src\dynamic_libs\gx2_types.h	/^} GX2VertexShader;$/;"	t	typeref:struct:_GX2VertexShader
+GX2_AA_MODE_1X	.\src\dynamic_libs\gx2_types.h	411;"	d
+GX2_AA_MODE_2X	.\src\dynamic_libs\gx2_types.h	412;"	d
+GX2_AA_MODE_4X	.\src\dynamic_libs\gx2_types.h	413;"	d
+GX2_AA_MODE_8X	.\src\dynamic_libs\gx2_types.h	414;"	d
+GX2_ATTRIB_FORMAT_10_10_10_2_SINT	.\src\dynamic_libs\gx2_types.h	201;"	d
+GX2_ATTRIB_FORMAT_10_10_10_2_SNORM	.\src\dynamic_libs\gx2_types.h	192;"	d
+GX2_ATTRIB_FORMAT_10_10_10_2_UINT	.\src\dynamic_libs\gx2_types.h	181;"	d
+GX2_ATTRIB_FORMAT_10_10_10_2_UNORM	.\src\dynamic_libs\gx2_types.h	172;"	d
+GX2_ATTRIB_FORMAT_10_11_11_FLOAT	.\src\dynamic_libs\gx2_types.h	214;"	d
+GX2_ATTRIB_FORMAT_16_16_16_16_FLOAT	.\src\dynamic_libs\gx2_types.h	218;"	d
+GX2_ATTRIB_FORMAT_16_16_16_16_SINT	.\src\dynamic_libs\gx2_types.h	203;"	d
+GX2_ATTRIB_FORMAT_16_16_16_16_SINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	227;"	d
+GX2_ATTRIB_FORMAT_16_16_16_16_SNORM	.\src\dynamic_libs\gx2_types.h	193;"	d
+GX2_ATTRIB_FORMAT_16_16_16_16_UINT	.\src\dynamic_libs\gx2_types.h	183;"	d
+GX2_ATTRIB_FORMAT_16_16_16_16_UINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	217;"	d
+GX2_ATTRIB_FORMAT_16_16_16_16_UNORM	.\src\dynamic_libs\gx2_types.h	173;"	d
+GX2_ATTRIB_FORMAT_16_16_FLOAT	.\src\dynamic_libs\gx2_types.h	213;"	d
+GX2_ATTRIB_FORMAT_16_16_SINT	.\src\dynamic_libs\gx2_types.h	199;"	d
+GX2_ATTRIB_FORMAT_16_16_SINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	225;"	d
+GX2_ATTRIB_FORMAT_16_16_SNORM	.\src\dynamic_libs\gx2_types.h	190;"	d
+GX2_ATTRIB_FORMAT_16_16_UINT	.\src\dynamic_libs\gx2_types.h	179;"	d
+GX2_ATTRIB_FORMAT_16_16_UINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	212;"	d
+GX2_ATTRIB_FORMAT_16_16_UNORM	.\src\dynamic_libs\gx2_types.h	170;"	d
+GX2_ATTRIB_FORMAT_16_FLOAT	.\src\dynamic_libs\gx2_types.h	209;"	d
+GX2_ATTRIB_FORMAT_16_SINT	.\src\dynamic_libs\gx2_types.h	196;"	d
+GX2_ATTRIB_FORMAT_16_SINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	223;"	d
+GX2_ATTRIB_FORMAT_16_SNORM	.\src\dynamic_libs\gx2_types.h	188;"	d
+GX2_ATTRIB_FORMAT_16_UINT	.\src\dynamic_libs\gx2_types.h	176;"	d
+GX2_ATTRIB_FORMAT_16_UINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	208;"	d
+GX2_ATTRIB_FORMAT_16_UNORM	.\src\dynamic_libs\gx2_types.h	168;"	d
+GX2_ATTRIB_FORMAT_32_32_32_32_FLOAT	.\src\dynamic_libs\gx2_types.h	220;"	d
+GX2_ATTRIB_FORMAT_32_32_32_32_SINT	.\src\dynamic_libs\gx2_types.h	205;"	d
+GX2_ATTRIB_FORMAT_32_32_32_32_UINT	.\src\dynamic_libs\gx2_types.h	185;"	d
+GX2_ATTRIB_FORMAT_32_32_32_FLOAT	.\src\dynamic_libs\gx2_types.h	219;"	d
+GX2_ATTRIB_FORMAT_32_32_32_SINT	.\src\dynamic_libs\gx2_types.h	204;"	d
+GX2_ATTRIB_FORMAT_32_32_32_UINT	.\src\dynamic_libs\gx2_types.h	184;"	d
+GX2_ATTRIB_FORMAT_32_32_FLOAT	.\src\dynamic_libs\gx2_types.h	216;"	d
+GX2_ATTRIB_FORMAT_32_32_SINT	.\src\dynamic_libs\gx2_types.h	202;"	d
+GX2_ATTRIB_FORMAT_32_32_UINT	.\src\dynamic_libs\gx2_types.h	182;"	d
+GX2_ATTRIB_FORMAT_32_FLOAT	.\src\dynamic_libs\gx2_types.h	211;"	d
+GX2_ATTRIB_FORMAT_32_SINT	.\src\dynamic_libs\gx2_types.h	198;"	d
+GX2_ATTRIB_FORMAT_32_UINT	.\src\dynamic_libs\gx2_types.h	178;"	d
+GX2_ATTRIB_FORMAT_4_4_UNORM	.\src\dynamic_libs\gx2_types.h	167;"	d
+GX2_ATTRIB_FORMAT_8_8_8_8_SINT	.\src\dynamic_libs\gx2_types.h	200;"	d
+GX2_ATTRIB_FORMAT_8_8_8_8_SINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	226;"	d
+GX2_ATTRIB_FORMAT_8_8_8_8_SNORM	.\src\dynamic_libs\gx2_types.h	191;"	d
+GX2_ATTRIB_FORMAT_8_8_8_8_UINT	.\src\dynamic_libs\gx2_types.h	180;"	d
+GX2_ATTRIB_FORMAT_8_8_8_8_UINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	215;"	d
+GX2_ATTRIB_FORMAT_8_8_8_8_UNORM	.\src\dynamic_libs\gx2_types.h	171;"	d
+GX2_ATTRIB_FORMAT_8_8_SINT	.\src\dynamic_libs\gx2_types.h	197;"	d
+GX2_ATTRIB_FORMAT_8_8_SINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	224;"	d
+GX2_ATTRIB_FORMAT_8_8_SNORM	.\src\dynamic_libs\gx2_types.h	189;"	d
+GX2_ATTRIB_FORMAT_8_8_UINT	.\src\dynamic_libs\gx2_types.h	177;"	d
+GX2_ATTRIB_FORMAT_8_8_UINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	210;"	d
+GX2_ATTRIB_FORMAT_8_8_UNORM	.\src\dynamic_libs\gx2_types.h	169;"	d
+GX2_ATTRIB_FORMAT_8_SINT	.\src\dynamic_libs\gx2_types.h	195;"	d
+GX2_ATTRIB_FORMAT_8_SINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	222;"	d
+GX2_ATTRIB_FORMAT_8_SNORM	.\src\dynamic_libs\gx2_types.h	187;"	d
+GX2_ATTRIB_FORMAT_8_UINT	.\src\dynamic_libs\gx2_types.h	175;"	d
+GX2_ATTRIB_FORMAT_8_UINT_TO_FLOAT	.\src\dynamic_libs\gx2_types.h	207;"	d
+GX2_ATTRIB_FORMAT_8_UNORM	.\src\dynamic_libs\gx2_types.h	166;"	d
+GX2_AUX_BUFFER_CLEAR_VALUE	.\src\dynamic_libs\gx2_types.h	46;"	d
+GX2_BLEND_COMBINE_ADD	.\src\dynamic_libs\gx2_types.h	112;"	d
+GX2_BLEND_COMBINE_DST_MINUS_SRC	.\src\dynamic_libs\gx2_types.h	116;"	d
+GX2_BLEND_COMBINE_MAX	.\src\dynamic_libs\gx2_types.h	115;"	d
+GX2_BLEND_COMBINE_MIN	.\src\dynamic_libs\gx2_types.h	114;"	d
+GX2_BLEND_COMBINE_SRC_MINUS_DST	.\src\dynamic_libs\gx2_types.h	113;"	d
+GX2_BLEND_ONE	.\src\dynamic_libs\gx2_types.h	122;"	d
+GX2_BLEND_ONE_MINUS_SRC_ALPHA	.\src\dynamic_libs\gx2_types.h	124;"	d
+GX2_BLEND_SRC_ALPHA	.\src\dynamic_libs\gx2_types.h	123;"	d
+GX2_BLEND_ZERO	.\src\dynamic_libs\gx2_types.h	121;"	d
+GX2_BUFFERING_DOUBLE	.\src\dynamic_libs\gx2_types.h	465;"	d
+GX2_BUFFERING_QUAD	.\src\dynamic_libs\gx2_types.h	467;"	d
+GX2_BUFFERING_SINGLE	.\src\dynamic_libs\gx2_types.h	464;"	d
+GX2_BUFFERING_TRIPLE	.\src\dynamic_libs\gx2_types.h	466;"	d
+GX2_CLEAR_BOTH	.\src\dynamic_libs\gx2_types.h	298;"	d
+GX2_CLEAR_DEPTH	.\src\dynamic_libs\gx2_types.h	296;"	d
+GX2_CLEAR_STENCIL	.\src\dynamic_libs\gx2_types.h	297;"	d
+GX2_COMMAND_BUFFER_SIZE	.\src\dynamic_libs\gx2_types.h	36;"	d
+GX2_COMPARE_ALWAYS	.\src\dynamic_libs\gx2_types.h	75;"	d
+GX2_COMPARE_EQUAL	.\src\dynamic_libs\gx2_types.h	70;"	d
+GX2_COMPARE_GEQUAL	.\src\dynamic_libs\gx2_types.h	74;"	d
+GX2_COMPARE_GREATER	.\src\dynamic_libs\gx2_types.h	72;"	d
+GX2_COMPARE_LEQUAL	.\src\dynamic_libs\gx2_types.h	71;"	d
+GX2_COMPARE_LESS	.\src\dynamic_libs\gx2_types.h	69;"	d
+GX2_COMPARE_NEVER	.\src\dynamic_libs\gx2_types.h	68;"	d
+GX2_COMPARE_NOTEQUAL	.\src\dynamic_libs\gx2_types.h	73;"	d
+GX2_COMP_SEL_NONE	.\src\dynamic_libs\gx2_types.h	240;"	d
+GX2_COMP_SEL_WWWW	.\src\dynamic_libs\gx2_types.h	248;"	d
+GX2_COMP_SEL_WXYZ	.\src\dynamic_libs\gx2_types.h	250;"	d
+GX2_COMP_SEL_WZYX	.\src\dynamic_libs\gx2_types.h	249;"	d
+GX2_COMP_SEL_X001	.\src\dynamic_libs\gx2_types.h	241;"	d
+GX2_COMP_SEL_XXXX	.\src\dynamic_libs\gx2_types.h	245;"	d
+GX2_COMP_SEL_XY01	.\src\dynamic_libs\gx2_types.h	242;"	d
+GX2_COMP_SEL_XYZ1	.\src\dynamic_libs\gx2_types.h	243;"	d
+GX2_COMP_SEL_XYZW	.\src\dynamic_libs\gx2_types.h	244;"	d
+GX2_COMP_SEL_YYYY	.\src\dynamic_libs\gx2_types.h	246;"	d
+GX2_COMP_SEL_ZZZZ	.\src\dynamic_libs\gx2_types.h	247;"	d
+GX2_CONTEXT_STATE_ALIGNMENT	.\src\dynamic_libs\gx2_types.h	39;"	d
+GX2_CONTEXT_STATE_SIZE	.\src\dynamic_libs\gx2_types.h	44;"	d
+GX2_DISABLE	.\src\dynamic_libs\gx2_types.h	53;"	d
+GX2_DISPLAY_LIST_ALIGNMENT	.\src\dynamic_libs\gx2_types.h	40;"	d
+GX2_DRC_DOUBLE	.\src\dynamic_libs\gx2_types.h	458;"	d
+GX2_DRC_NONE	.\src\dynamic_libs\gx2_types.h	456;"	d
+GX2_DRC_SINGLE	.\src\dynamic_libs\gx2_types.h	457;"	d
+GX2_DRC_SINGLE_30HZ	.\src\dynamic_libs\gx2_types.h	459;"	d
+GX2_ENABLE	.\src\dynamic_libs\gx2_types.h	54;"	d
+GX2_ENDIANSWAP_DEFAULT	.\src\dynamic_libs\gx2_types.h	493;"	d
+GX2_FALSE	.\src\dynamic_libs\gx2_types.h	51;"	d
+GX2_FETCH_SHADER_TESSELATION_LINES	.\src\dynamic_libs\gx2_types.h	506;"	d
+GX2_FETCH_SHADER_TESSELATION_NONE	.\src\dynamic_libs\gx2_types.h	505;"	d
+GX2_FETCH_SHADER_TESSELATION_QUADS	.\src\dynamic_libs\gx2_types.h	508;"	d
+GX2_FETCH_SHADER_TESSELATION_TRIANGLES	.\src\dynamic_libs\gx2_types.h	507;"	d
+GX2_FRONT_FACE_CCW	.\src\dynamic_libs\gx2_types.h	141;"	d
+GX2_FRONT_FACE_CW	.\src\dynamic_libs\gx2_types.h	142;"	d
+GX2_INDEX_BUFFER_ALIGNMENT	.\src\dynamic_libs\gx2_types.h	42;"	d
+GX2_INDEX_FORMAT_U16	.\src\dynamic_libs\gx2_types.h	277;"	d
+GX2_INDEX_FORMAT_U32	.\src\dynamic_libs\gx2_types.h	278;"	d
+GX2_INIT_ATTRIB_ARGC	.\src\dynamic_libs\gx2_types.h	62;"	d
+GX2_INIT_ATTRIB_ARGV	.\src\dynamic_libs\gx2_types.h	63;"	d
+GX2_INIT_ATTRIB_CB_BASE	.\src\dynamic_libs\gx2_types.h	60;"	d
+GX2_INIT_ATTRIB_CB_SIZE	.\src\dynamic_libs\gx2_types.h	61;"	d
+GX2_INIT_ATTRIB_NULL	.\src\dynamic_libs\gx2_types.h	59;"	d
+GX2_INVALIDATE_ATTRIB_BUFFER	.\src\dynamic_libs\gx2_types.h	478;"	d
+GX2_INVALIDATE_COLOR_BUFFER	.\src\dynamic_libs\gx2_types.h	482;"	d
+GX2_INVALIDATE_CPU	.\src\dynamic_libs\gx2_types.h	484;"	d
+GX2_INVALIDATE_CPU_ATTRIB_BUFFER	.\src\dynamic_libs\gx2_types.h	485;"	d
+GX2_INVALIDATE_CPU_SHADER	.\src\dynamic_libs\gx2_types.h	488;"	d
+GX2_INVALIDATE_CPU_TEXTURE	.\src\dynamic_libs\gx2_types.h	486;"	d
+GX2_INVALIDATE_CPU_UNIFORM_BLOCK	.\src\dynamic_libs\gx2_types.h	487;"	d
+GX2_INVALIDATE_DEPTH_BUFFER	.\src\dynamic_libs\gx2_types.h	483;"	d
+GX2_INVALIDATE_SHADER	.\src\dynamic_libs\gx2_types.h	481;"	d
+GX2_INVALIDATE_TEXTURE	.\src\dynamic_libs\gx2_types.h	479;"	d
+GX2_INVALIDATE_UNIFORM_BLOCK	.\src\dynamic_libs\gx2_types.h	480;"	d
+GX2_LOGIC_OP_AND	.\src\dynamic_libs\gx2_types.h	100;"	d
+GX2_LOGIC_OP_CLEAR	.\src\dynamic_libs\gx2_types.h	92;"	d
+GX2_LOGIC_OP_COPY	.\src\dynamic_libs\gx2_types.h	104;"	d
+GX2_LOGIC_OP_EQUIV	.\src\dynamic_libs\gx2_types.h	101;"	d
+GX2_LOGIC_OP_INV	.\src\dynamic_libs\gx2_types.h	97;"	d
+GX2_LOGIC_OP_INVAND	.\src\dynamic_libs\gx2_types.h	94;"	d
+GX2_LOGIC_OP_INVCOPY	.\src\dynamic_libs\gx2_types.h	95;"	d
+GX2_LOGIC_OP_INVOR	.\src\dynamic_libs\gx2_types.h	103;"	d
+GX2_LOGIC_OP_NAND	.\src\dynamic_libs\gx2_types.h	99;"	d
+GX2_LOGIC_OP_NOOP	.\src\dynamic_libs\gx2_types.h	102;"	d
+GX2_LOGIC_OP_NOR	.\src\dynamic_libs\gx2_types.h	93;"	d
+GX2_LOGIC_OP_OR	.\src\dynamic_libs\gx2_types.h	106;"	d
+GX2_LOGIC_OP_REVAND	.\src\dynamic_libs\gx2_types.h	96;"	d
+GX2_LOGIC_OP_REVOR	.\src\dynamic_libs\gx2_types.h	105;"	d
+GX2_LOGIC_OP_SET	.\src\dynamic_libs\gx2_types.h	107;"	d
+GX2_LOGIC_OP_XOR	.\src\dynamic_libs\gx2_types.h	98;"	d
+GX2_POLYGON_MODE_LINE	.\src\dynamic_libs\gx2_types.h	147;"	d
+GX2_POLYGON_MODE_POINT	.\src\dynamic_libs\gx2_types.h	146;"	d
+GX2_POLYGON_MODE_TRIANGLE	.\src\dynamic_libs\gx2_types.h	148;"	d
+GX2_PRIMITIVE_LINES	.\src\dynamic_libs\gx2_types.h	284;"	d
+GX2_PRIMITIVE_LINE_STRIP	.\src\dynamic_libs\gx2_types.h	285;"	d
+GX2_PRIMITIVE_POINTS	.\src\dynamic_libs\gx2_types.h	283;"	d
+GX2_PRIMITIVE_QUADS	.\src\dynamic_libs\gx2_types.h	290;"	d
+GX2_PRIMITIVE_QUAD_STRIP	.\src\dynamic_libs\gx2_types.h	291;"	d
+GX2_PRIMITIVE_RECTS	.\src\dynamic_libs\gx2_types.h	289;"	d
+GX2_PRIMITIVE_TRIANGLES	.\src\dynamic_libs\gx2_types.h	286;"	d
+GX2_PRIMITIVE_TRIANGLE_FAN	.\src\dynamic_libs\gx2_types.h	287;"	d
+GX2_PRIMITIVE_TRIANGLE_STRIP	.\src\dynamic_libs\gx2_types.h	288;"	d
+GX2_RENDER_TARGET_0	.\src\dynamic_libs\gx2_types.h	129;"	d
+GX2_RENDER_TARGET_1	.\src\dynamic_libs\gx2_types.h	130;"	d
+GX2_RENDER_TARGET_2	.\src\dynamic_libs\gx2_types.h	131;"	d
+GX2_RENDER_TARGET_3	.\src\dynamic_libs\gx2_types.h	132;"	d
+GX2_RENDER_TARGET_4	.\src\dynamic_libs\gx2_types.h	133;"	d
+GX2_RENDER_TARGET_5	.\src\dynamic_libs\gx2_types.h	134;"	d
+GX2_RENDER_TARGET_6	.\src\dynamic_libs\gx2_types.h	135;"	d
+GX2_RENDER_TARGET_7	.\src\dynamic_libs\gx2_types.h	136;"	d
+GX2_SAMPLER_TYPE_2D	.\src\dynamic_libs\gx2_types.h	271;"	d
+GX2_SCAN_BUFFER_ALIGNMENT	.\src\dynamic_libs\gx2_types.h	37;"	d
+GX2_SCAN_TARGET_DRC_FIRST	.\src\dynamic_libs\gx2_types.h	472;"	d
+GX2_SCAN_TARGET_DRC_SECOND	.\src\dynamic_libs\gx2_types.h	473;"	d
+GX2_SCAN_TARGET_TV	.\src\dynamic_libs\gx2_types.h	471;"	d
+GX2_SHADER_ALIGNMENT	.\src\dynamic_libs\gx2_types.h	38;"	d
+GX2_SHADER_MODE_COMPUTE_SHADER	.\src\dynamic_libs\gx2_types.h	235;"	d
+GX2_SHADER_MODE_GEOMETRY_SHADER	.\src\dynamic_libs\gx2_types.h	234;"	d
+GX2_SHADER_MODE_UNIFORM_BLOCK	.\src\dynamic_libs\gx2_types.h	233;"	d
+GX2_SHADER_MODE_UNIFORM_REGISTER	.\src\dynamic_libs\gx2_types.h	232;"	d
+GX2_SPECIAL_STATE_CLEAR	.\src\dynamic_libs\gx2_types.h	153;"	d
+GX2_SPECIAL_STATE_CLEAR_COLOR_AS_DEPTH	.\src\dynamic_libs\gx2_types.h	161;"	d
+GX2_SPECIAL_STATE_CLEAR_HIZ	.\src\dynamic_libs\gx2_types.h	154;"	d
+GX2_SPECIAL_STATE_CONVERT_AADEPTH	.\src\dynamic_libs\gx2_types.h	159;"	d
+GX2_SPECIAL_STATE_CONVERT_DEPTH	.\src\dynamic_libs\gx2_types.h	158;"	d
+GX2_SPECIAL_STATE_COPY	.\src\dynamic_libs\gx2_types.h	155;"	d
+GX2_SPECIAL_STATE_EXPAND_COLOR	.\src\dynamic_libs\gx2_types.h	156;"	d
+GX2_SPECIAL_STATE_EXPAND_DEPTH	.\src\dynamic_libs\gx2_types.h	157;"	d
+GX2_SPECIAL_STATE_RESOLVE_COLOR	.\src\dynamic_libs\gx2_types.h	160;"	d
+GX2_STENCIL_DECR	.\src\dynamic_libs\gx2_types.h	84;"	d
+GX2_STENCIL_DECR_WRAP	.\src\dynamic_libs\gx2_types.h	87;"	d
+GX2_STENCIL_INCR	.\src\dynamic_libs\gx2_types.h	83;"	d
+GX2_STENCIL_INCR_WRAP	.\src\dynamic_libs\gx2_types.h	86;"	d
+GX2_STENCIL_INVERT	.\src\dynamic_libs\gx2_types.h	85;"	d
+GX2_STENCIL_KEEP	.\src\dynamic_libs\gx2_types.h	80;"	d
+GX2_STENCIL_REPLACE	.\src\dynamic_libs\gx2_types.h	82;"	d
+GX2_STENCIL_ZERO	.\src\dynamic_libs\gx2_types.h	81;"	d
+GX2_SURFACE_DIM_1D	.\src\dynamic_libs\gx2_types.h	399;"	d
+GX2_SURFACE_DIM_1D_ARRAY	.\src\dynamic_libs\gx2_types.h	403;"	d
+GX2_SURFACE_DIM_2D	.\src\dynamic_libs\gx2_types.h	400;"	d
+GX2_SURFACE_DIM_2D_ARRAY	.\src\dynamic_libs\gx2_types.h	404;"	d
+GX2_SURFACE_DIM_2D_MSAA	.\src\dynamic_libs\gx2_types.h	405;"	d
+GX2_SURFACE_DIM_2D_MSAA_ARRAY	.\src\dynamic_libs\gx2_types.h	406;"	d
+GX2_SURFACE_DIM_3D	.\src\dynamic_libs\gx2_types.h	401;"	d
+GX2_SURFACE_DIM_CUBE	.\src\dynamic_libs\gx2_types.h	402;"	d
+GX2_SURFACE_FORMAT_D_D24_S8_FLOAT	.\src\dynamic_libs\gx2_types.h	369;"	d
+GX2_SURFACE_FORMAT_D_D24_S8_UNORM	.\src\dynamic_libs\gx2_types.h	312;"	d
+GX2_SURFACE_FORMAT_D_D32_FLOAT_S8_UINT_X24	.\src\dynamic_libs\gx2_types.h	371;"	d
+GX2_SURFACE_FORMAT_TCD_R16_UNORM	.\src\dynamic_libs\gx2_types.h	305;"	d
+GX2_SURFACE_FORMAT_TCD_R32_FLOAT	.\src\dynamic_libs\gx2_types.h	367;"	d
+GX2_SURFACE_FORMAT_TCS_A2_B10_G10_R10_UNORM	.\src\dynamic_libs\gx2_types.h	316;"	d
+GX2_SURFACE_FORMAT_TCS_R10_G10_B10_A2_UNORM	.\src\dynamic_libs\gx2_types.h	314;"	d
+GX2_SURFACE_FORMAT_TCS_R5_G6_B5_UNORM	.\src\dynamic_libs\gx2_types.h	307;"	d
+GX2_SURFACE_FORMAT_TCS_R8_G8_B8_A8_SRGB	.\src\dynamic_libs\gx2_types.h	361;"	d
+GX2_SURFACE_FORMAT_TCS_R8_G8_B8_A8_UNORM	.\src\dynamic_libs\gx2_types.h	315;"	d
+GX2_SURFACE_FORMAT_TC_A1_B5_G5_R5_UNORM	.\src\dynamic_libs\gx2_types.h	310;"	d
+GX2_SURFACE_FORMAT_TC_A2_B10_G10_R10_UINT	.\src\dynamic_libs\gx2_types.h	333;"	d
+GX2_SURFACE_FORMAT_TC_R10_G10_B10_A2_SINT	.\src\dynamic_libs\gx2_types.h	355;"	d
+GX2_SURFACE_FORMAT_TC_R10_G10_B10_A2_SNORM	.\src\dynamic_libs\gx2_types.h	344;"	d
+GX2_SURFACE_FORMAT_TC_R10_G10_B10_A2_UINT	.\src\dynamic_libs\gx2_types.h	331;"	d
+GX2_SURFACE_FORMAT_TC_R11_G11_B10_FLOAT	.\src\dynamic_libs\gx2_types.h	370;"	d
+GX2_SURFACE_FORMAT_TC_R16_FLOAT	.\src\dynamic_libs\gx2_types.h	366;"	d
+GX2_SURFACE_FORMAT_TC_R16_G16_B16_A16_FLOAT	.\src\dynamic_libs\gx2_types.h	374;"	d
+GX2_SURFACE_FORMAT_TC_R16_G16_B16_A16_SINT	.\src\dynamic_libs\gx2_types.h	358;"	d
+GX2_SURFACE_FORMAT_TC_R16_G16_B16_A16_SNORM	.\src\dynamic_libs\gx2_types.h	346;"	d
+GX2_SURFACE_FORMAT_TC_R16_G16_B16_A16_UINT	.\src\dynamic_libs\gx2_types.h	336;"	d
+GX2_SURFACE_FORMAT_TC_R16_G16_B16_A16_UNORM	.\src\dynamic_libs\gx2_types.h	317;"	d
+GX2_SURFACE_FORMAT_TC_R16_G16_FLOAT	.\src\dynamic_libs\gx2_types.h	368;"	d
+GX2_SURFACE_FORMAT_TC_R16_G16_SINT	.\src\dynamic_libs\gx2_types.h	354;"	d
+GX2_SURFACE_FORMAT_TC_R16_G16_SNORM	.\src\dynamic_libs\gx2_types.h	342;"	d
+GX2_SURFACE_FORMAT_TC_R16_G16_UINT	.\src\dynamic_libs\gx2_types.h	329;"	d
+GX2_SURFACE_FORMAT_TC_R16_G16_UNORM	.\src\dynamic_libs\gx2_types.h	311;"	d
+GX2_SURFACE_FORMAT_TC_R16_SINT	.\src\dynamic_libs\gx2_types.h	351;"	d
+GX2_SURFACE_FORMAT_TC_R16_SNORM	.\src\dynamic_libs\gx2_types.h	340;"	d
+GX2_SURFACE_FORMAT_TC_R16_UINT	.\src\dynamic_libs\gx2_types.h	326;"	d
+GX2_SURFACE_FORMAT_TC_R32_G32_B32_A32_FLOAT	.\src\dynamic_libs\gx2_types.h	375;"	d
+GX2_SURFACE_FORMAT_TC_R32_G32_B32_A32_SINT	.\src\dynamic_libs\gx2_types.h	359;"	d
+GX2_SURFACE_FORMAT_TC_R32_G32_B32_A32_UINT	.\src\dynamic_libs\gx2_types.h	337;"	d
+GX2_SURFACE_FORMAT_TC_R32_G32_FLOAT	.\src\dynamic_libs\gx2_types.h	373;"	d
+GX2_SURFACE_FORMAT_TC_R32_G32_SINT	.\src\dynamic_libs\gx2_types.h	357;"	d
+GX2_SURFACE_FORMAT_TC_R32_G32_UINT	.\src\dynamic_libs\gx2_types.h	335;"	d
+GX2_SURFACE_FORMAT_TC_R32_SINT	.\src\dynamic_libs\gx2_types.h	353;"	d
+GX2_SURFACE_FORMAT_TC_R32_UINT	.\src\dynamic_libs\gx2_types.h	328;"	d
+GX2_SURFACE_FORMAT_TC_R4_G4_B4_A4_UNORM	.\src\dynamic_libs\gx2_types.h	309;"	d
+GX2_SURFACE_FORMAT_TC_R5_G5_B5_A1_UNORM	.\src\dynamic_libs\gx2_types.h	308;"	d
+GX2_SURFACE_FORMAT_TC_R8_G8_B8_A8_SINT	.\src\dynamic_libs\gx2_types.h	356;"	d
+GX2_SURFACE_FORMAT_TC_R8_G8_B8_A8_SNORM	.\src\dynamic_libs\gx2_types.h	345;"	d
+GX2_SURFACE_FORMAT_TC_R8_G8_B8_A8_UINT	.\src\dynamic_libs\gx2_types.h	332;"	d
+GX2_SURFACE_FORMAT_TC_R8_G8_SINT	.\src\dynamic_libs\gx2_types.h	352;"	d
+GX2_SURFACE_FORMAT_TC_R8_G8_SNORM	.\src\dynamic_libs\gx2_types.h	341;"	d
+GX2_SURFACE_FORMAT_TC_R8_G8_UINT	.\src\dynamic_libs\gx2_types.h	327;"	d
+GX2_SURFACE_FORMAT_TC_R8_G8_UNORM	.\src\dynamic_libs\gx2_types.h	306;"	d
+GX2_SURFACE_FORMAT_TC_R8_SINT	.\src\dynamic_libs\gx2_types.h	350;"	d
+GX2_SURFACE_FORMAT_TC_R8_SNORM	.\src\dynamic_libs\gx2_types.h	339;"	d
+GX2_SURFACE_FORMAT_TC_R8_UINT	.\src\dynamic_libs\gx2_types.h	325;"	d
+GX2_SURFACE_FORMAT_TC_R8_UNORM	.\src\dynamic_libs\gx2_types.h	303;"	d
+GX2_SURFACE_FORMAT_T_BC1_SRGB	.\src\dynamic_libs\gx2_types.h	362;"	d
+GX2_SURFACE_FORMAT_T_BC1_UNORM	.\src\dynamic_libs\gx2_types.h	318;"	d
+GX2_SURFACE_FORMAT_T_BC2_SRGB	.\src\dynamic_libs\gx2_types.h	363;"	d
+GX2_SURFACE_FORMAT_T_BC2_UNORM	.\src\dynamic_libs\gx2_types.h	319;"	d
+GX2_SURFACE_FORMAT_T_BC3_SRGB	.\src\dynamic_libs\gx2_types.h	364;"	d
+GX2_SURFACE_FORMAT_T_BC3_UNORM	.\src\dynamic_libs\gx2_types.h	320;"	d
+GX2_SURFACE_FORMAT_T_BC4_SNORM	.\src\dynamic_libs\gx2_types.h	347;"	d
+GX2_SURFACE_FORMAT_T_BC4_UNORM	.\src\dynamic_libs\gx2_types.h	321;"	d
+GX2_SURFACE_FORMAT_T_BC5_SNORM	.\src\dynamic_libs\gx2_types.h	348;"	d
+GX2_SURFACE_FORMAT_T_BC5_UNORM	.\src\dynamic_libs\gx2_types.h	322;"	d
+GX2_SURFACE_FORMAT_T_NV12_UNORM	.\src\dynamic_libs\gx2_types.h	323;"	d
+GX2_SURFACE_FORMAT_T_R10_G10_B10_A2_SNORM	.\src\dynamic_libs\gx2_types.h	343;"	d
+GX2_SURFACE_FORMAT_T_R24_UNORM_X8	.\src\dynamic_libs\gx2_types.h	313;"	d
+GX2_SURFACE_FORMAT_T_R32_FLOAT_X8_X24	.\src\dynamic_libs\gx2_types.h	372;"	d
+GX2_SURFACE_FORMAT_T_R4_G4_UNORM	.\src\dynamic_libs\gx2_types.h	304;"	d
+GX2_SURFACE_FORMAT_T_X24_G8_UINT	.\src\dynamic_libs\gx2_types.h	330;"	d
+GX2_SURFACE_FORMAT_T_X32_G8_UINT_X24	.\src\dynamic_libs\gx2_types.h	334;"	d
+GX2_SURFACE_USE_COLOR_BUFFER	.\src\dynamic_libs\gx2_types.h	387;"	d
+GX2_SURFACE_USE_COLOR_BUFFER_FTV	.\src\dynamic_libs\gx2_types.h	393;"	d
+GX2_SURFACE_USE_COLOR_BUFFER_TEXTURE	.\src\dynamic_libs\gx2_types.h	391;"	d
+GX2_SURFACE_USE_COLOR_BUFFER_TEXTURE_FTV	.\src\dynamic_libs\gx2_types.h	394;"	d
+GX2_SURFACE_USE_DEPTH_BUFFER	.\src\dynamic_libs\gx2_types.h	388;"	d
+GX2_SURFACE_USE_DEPTH_BUFFER_TEXTURE	.\src\dynamic_libs\gx2_types.h	392;"	d
+GX2_SURFACE_USE_FTV	.\src\dynamic_libs\gx2_types.h	390;"	d
+GX2_SURFACE_USE_SCAN_BUFFER	.\src\dynamic_libs\gx2_types.h	389;"	d
+GX2_SURFACE_USE_TEXTURE	.\src\dynamic_libs\gx2_types.h	386;"	d
+GX2_TESSELLATION_MODE_ADAPTIVE	.\src\dynamic_libs\gx2_types.h	500;"	d
+GX2_TESSELLATION_MODE_CONTINUOUS	.\src\dynamic_libs\gx2_types.h	499;"	d
+GX2_TESSELLATION_MODE_DISCRETE	.\src\dynamic_libs\gx2_types.h	498;"	d
+GX2_TEX_CLAMP_CLAMP	.\src\dynamic_libs\gx2_types.h	421;"	d
+GX2_TEX_CLAMP_CLAMP_BORDER	.\src\dynamic_libs\gx2_types.h	425;"	d
+GX2_TEX_CLAMP_CLAMP_HALF_BORDER	.\src\dynamic_libs\gx2_types.h	423;"	d
+GX2_TEX_CLAMP_MIRROR	.\src\dynamic_libs\gx2_types.h	420;"	d
+GX2_TEX_CLAMP_MIRROR_ONCE	.\src\dynamic_libs\gx2_types.h	422;"	d
+GX2_TEX_CLAMP_MIRROR_ONCE_BORDER	.\src\dynamic_libs\gx2_types.h	426;"	d
+GX2_TEX_CLAMP_MIRROR_ONCE_HALF_BORDER	.\src\dynamic_libs\gx2_types.h	424;"	d
+GX2_TEX_CLAMP_WRAP	.\src\dynamic_libs\gx2_types.h	419;"	d
+GX2_TEX_XY_FILTER_BILINEAR	.\src\dynamic_libs\gx2_types.h	432;"	d
+GX2_TEX_XY_FILTER_POINT	.\src\dynamic_libs\gx2_types.h	431;"	d
+GX2_TILE_MODE_DEFAULT	.\src\dynamic_libs\gx2_types.h	380;"	d
+GX2_TILE_MODE_LINEAR_ALIGNED	.\src\dynamic_libs\gx2_types.h	381;"	d
+GX2_TRUE	.\src\dynamic_libs\gx2_types.h	52;"	d
+GX2_TV_RENDER_1080	.\src\dynamic_libs\gx2_types.h	451;"	d
+GX2_TV_RENDER_480_NARROW	.\src\dynamic_libs\gx2_types.h	448;"	d
+GX2_TV_RENDER_480_WIDE	.\src\dynamic_libs\gx2_types.h	449;"	d
+GX2_TV_RENDER_720	.\src\dynamic_libs\gx2_types.h	450;"	d
+GX2_TV_SCAN_MODE_1080I	.\src\dynamic_libs\gx2_types.h	442;"	d
+GX2_TV_SCAN_MODE_1080P	.\src\dynamic_libs\gx2_types.h	443;"	d
+GX2_TV_SCAN_MODE_480I	.\src\dynamic_libs\gx2_types.h	439;"	d
+GX2_TV_SCAN_MODE_480P	.\src\dynamic_libs\gx2_types.h	440;"	d
+GX2_TV_SCAN_MODE_576I	.\src\dynamic_libs\gx2_types.h	438;"	d
+GX2_TV_SCAN_MODE_720P	.\src\dynamic_libs\gx2_types.h	441;"	d
+GX2_TV_SCAN_MODE_NONE	.\src\dynamic_libs\gx2_types.h	437;"	d
+GX2_VAR_TYPE_BOOL	.\src\dynamic_libs\gx2_types.h	256;"	d
+GX2_VAR_TYPE_DOUBLE	.\src\dynamic_libs\gx2_types.h	260;"	d
+GX2_VAR_TYPE_FLOAT	.\src\dynamic_libs\gx2_types.h	259;"	d
+GX2_VAR_TYPE_INT	.\src\dynamic_libs\gx2_types.h	257;"	d
+GX2_VAR_TYPE_MAT2	.\src\dynamic_libs\gx2_types.h	264;"	d
+GX2_VAR_TYPE_MAT3	.\src\dynamic_libs\gx2_types.h	265;"	d
+GX2_VAR_TYPE_MAT4	.\src\dynamic_libs\gx2_types.h	266;"	d
+GX2_VAR_TYPE_UINT	.\src\dynamic_libs\gx2_types.h	258;"	d
+GX2_VAR_TYPE_VEC2	.\src\dynamic_libs\gx2_types.h	261;"	d
+GX2_VAR_TYPE_VEC3	.\src\dynamic_libs\gx2_types.h	262;"	d
+GX2_VAR_TYPE_VEC4	.\src\dynamic_libs\gx2_types.h	263;"	d
+GX2_VAR_TYPE_VOID	.\src\dynamic_libs\gx2_types.h	255;"	d
+GX2_VERTEX_BUFFER_ALIGNMENT	.\src\dynamic_libs\gx2_types.h	41;"	d
+HIDAttachCallback	.\src\dynamic_libs\syshid_functions.h	/^typedef int (*HIDAttachCallback)(HIDClient *p_hc,HIDDevice *p_hd,unsigned int attach);$/;"	t
+HIDCallback	.\src\dynamic_libs\syshid_functions.h	/^typedef void (*HIDCallback)(unsigned int handle,int error,unsigned char *p_buffer,unsigned int bytes_transferred,void *p_user);$/;"	t
+HIDClient	.\src\dynamic_libs\syshid_functions.h	/^typedef struct _HIDClient HIDClient;$/;"	t	typeref:struct:_HIDClient
+HIDDevice	.\src\dynamic_libs\syshid_functions.h	/^} HIDDevice;$/;"	t	typeref:struct:__anon10
+HID_DEVICE_ATTACH	.\src\dynamic_libs\syshid_functions.h	51;"	d
+HID_DEVICE_DETACH	.\src\dynamic_libs\syshid_functions.h	50;"	d
+HomeTouched	.\src\keyboard.h	/^	int HomeTouched;	$/;"	m	struct:renderFlags
+INADDR_ANY	.\src\dynamic_libs\socket_functions.h	35;"	d
+INVAL_DATA_BLOCK	.\src\dynamic_libs\os_functions.h	44;"	d
+IPPROTO_IP	.\src\dynamic_libs\socket_functions.h	42;"	d
+IPPROTO_TCP	.\src\dynamic_libs\socket_functions.h	43;"	d
+IPPROTO_UDP	.\src\dynamic_libs\socket_functions.h	44;"	d
+InitACPFunctionPointers	.\src\dynamic_libs\acp_functions.c	/^void InitACPFunctionPointers(void)$/;"	f
+InitAXFunctionPointers	.\src\dynamic_libs\ax_functions.c	/^void InitAXFunctionPointers(void)$/;"	f
+InitAcquireACP	.\src\dynamic_libs\acp_functions.c	/^void InitAcquireACP(void)$/;"	f
+InitAcquireAX	.\src\dynamic_libs\ax_functions.c	/^void InitAcquireAX(void)$/;"	f
+InitAcquireAoc	.\src\dynamic_libs\aoc_functions.c	/^void InitAcquireAoc(void)$/;"	f
+InitAcquireCurl	.\src\dynamic_libs\curl_functions.c	/^void InitAcquireCurl(void)$/;"	f
+InitAcquireGX2	.\src\dynamic_libs\gx2_functions.c	/^void InitAcquireGX2(void)$/;"	f
+InitAcquireOS	.\src\dynamic_libs\os_functions.c	/^void InitAcquireOS(void)$/;"	f
+InitAcquirePadScore	.\src\dynamic_libs\padscore_functions.c	/^void InitAcquirePadScore(void)$/;"	f
+InitAcquireSocket	.\src\dynamic_libs\socket_functions.c	/^void InitAcquireSocket(void)$/;"	f
+InitAcquireSys	.\src\dynamic_libs\sys_functions.c	/^void InitAcquireSys(void)$/;"	f
+InitAcquireSysHID	.\src\dynamic_libs\syshid_functions.c	/^void InitAcquireSysHID(void)$/;"	f
+InitAcquireVPad	.\src\dynamic_libs\vpad_functions.c	/^void InitAcquireVPad(void)$/;"	f
+InitAocFunctionPointers	.\src\dynamic_libs\aoc_functions.c	/^void InitAocFunctionPointers(void)$/;"	f
+InitCurlFunctionPointers	.\src\dynamic_libs\curl_functions.c	/^void InitCurlFunctionPointers(void)$/;"	f
+InitFSFunctionPointers	.\src\dynamic_libs\fs_functions.c	/^void InitFSFunctionPointers(void)$/;"	f
+InitGX2FunctionPointers	.\src\dynamic_libs\gx2_functions.c	/^void InitGX2FunctionPointers(void)$/;"	f
+InitOSFunctionPointers	.\src\dynamic_libs\os_functions.c	/^void InitOSFunctionPointers(void)$/;"	f
+InitPadScoreFunctionPointers	.\src\dynamic_libs\padscore_functions.c	/^void InitPadScoreFunctionPointers(void)$/;"	f
+InitSocketFunctionPointers	.\src\dynamic_libs\socket_functions.c	/^void InitSocketFunctionPointers(void)$/;"	f
+InitSysFunctionPointers	.\src\dynamic_libs\sys_functions.c	/^void InitSysFunctionPointers(void)$/;"	f
+InitSysHIDFunctionPointers	.\src\dynamic_libs\syshid_functions.c	/^void InitSysHIDFunctionPointers(void)$/;"	f
+InitVPadFunctionPointers	.\src\dynamic_libs\vpad_functions.c	/^void InitVPadFunctionPointers(void)$/;"	f
+KPADData	.\src\dynamic_libs\padscore_functions.h	/^} KPADData;$/;"	t	typeref:struct:_KPADData
+LIMIT	.\src\utils\utils.h	21;"	d
+LINE_MAX	.\src\screen\tty.c	23;"	d	file:
+LoadFileToMem	.\src\fs\fs_utils.c	/^int LoadFileToMem(const char *filepath, u8 **inbuffer, u32 *size)$/;"	f
+MAIN_ENTRY_ADDR	.\src\common\common.h	20;"	d
+MEM1_alloc	.\src\system\memory.c	/^void * MEM1_alloc(unsigned int size, unsigned int align)$/;"	f
+MEM1_free	.\src\system\memory.c	/^void MEM1_free(void *ptr)$/;"	f
+MEM2_alloc	.\src\system\memory.c	/^void * MEM2_alloc(unsigned int size, unsigned int align)$/;"	f
+MEM2_free	.\src\system\memory.c	/^void MEM2_free(void *ptr)$/;"	f
+MEMBucket_alloc	.\src\system\memory.c	/^void * MEMBucket_alloc(unsigned int size, unsigned int align)$/;"	f
+MEMBucket_free	.\src\system\memory.c	/^void MEMBucket_free(void *ptr)$/;"	f
+MEMORY_ARENA_1	.\src\system\memory.c	23;"	d	file:
+MEMORY_ARENA_2	.\src\system\memory.c	24;"	d	file:
+MEMORY_ARENA_3	.\src\system\memory.c	25;"	d	file:
+MEMORY_ARENA_4	.\src\system\memory.c	26;"	d	file:
+MEMORY_ARENA_5	.\src\system\memory.c	27;"	d	file:
+MEMORY_ARENA_6	.\src\system\memory.c	28;"	d	file:
+MEMORY_ARENA_7	.\src\system\memory.c	29;"	d	file:
+MEMORY_ARENA_8	.\src\system\memory.c	30;"	d	file:
+MEMORY_ARENA_FG_BUCKET	.\src\system\memory.c	31;"	d	file:
+MEM_BASE	.\src\common\common.h	15;"	d
+MICROSECS_TO_TICKS	.\src\dynamic_libs\os_functions.h	38;"	d
+MILLISECS_TO_TICKS	.\src\dynamic_libs\os_functions.h	37;"	d
+MSG_DONTWAIT	.\src\dynamic_libs\socket_functions.h	54;"	d
+Menu_Main	.\src\main.c	/^int Menu_Main(void) {$/;"	f
+MountFS	.\src\fs\fs_utils.c	/^int MountFS(void *pClient, void *pCmd, char **mount_path)$/;"	f
+OSCalendarTime	.\src\dynamic_libs\os_types.h	/^} OSCalendarTime;$/;"	t	typeref:struct:_OSCalendarTime
+OS_FIND_EXPORT	.\src\dynamic_libs\os_functions.h	52;"	d
+OS_FIND_EXPORT_EX	.\src\dynamic_libs\os_functions.h	58;"	d
+OS_FIRMWARE	.\src\common\common.h	21;"	d
+OS_MUTEX_SIZE	.\src\dynamic_libs\os_functions.h	65;"	d
+OS_SPECIFICS	.\src\common\common.h	23;"	d
+OsSpecifics	.\src\common\os_defs.h	/^} OsSpecifics;$/;"	t	typeref:struct:_OsSpecifics
+PROGRAM_H	.\src\keyboard.h	2;"	d
+ProperlyEndTransitionAudio	.\src\dynamic_libs\ax_functions.c	/^void ProperlyEndTransitionAudio(void)$/;"	f
+QWERTY	.\src\keyboard.h	/^	int QWERTY;$/;"	m	struct:renderFlags
+ROUNDDOWN	.\src\utils\utils.h	36;"	d
+ROUNDUP	.\src\utils\utils.h	37;"	d
+RadToDeg	.\src\utils\utils.h	30;"	d
+SD_PATH	.\src\common\common.h	11;"	d
+SECS_TO_TICKS	.\src\dynamic_libs\os_functions.h	36;"	d
+SOCK_DGRAM	.\src\dynamic_libs\socket_functions.h	40;"	d
+SOCK_STREAM	.\src\dynamic_libs\socket_functions.h	39;"	d
+SOL_SOCKET	.\src\dynamic_libs\socket_functions.h	48;"	d
+SOL_SOCKET	.\src\dynamic_libs\socket_functions.h	53;"	d
+SO_MYADDR	.\src\dynamic_libs\socket_functions.h	51;"	d
+SO_NONBLOCK	.\src\dynamic_libs\socket_functions.h	50;"	d
+SO_REUSEADDR	.\src\dynamic_libs\socket_functions.h	49;"	d
+TCP_NODELAY	.\src\dynamic_libs\socket_functions.h	46;"	d
+TYPES_H	.\src\common\types.h	2;"	d
+UmountFS	.\src\fs\fs_utils.c	/^int UmountFS(void *pClient, void *pCmd, const char *mountPath)$/;"	f
+VPADData	.\src\dynamic_libs\vpad_functions.h	/^} VPADData;$/;"	t	typeref:struct:__anon13
+VPADTPData	.\src\dynamic_libs\vpad_functions.h	/^} VPADTPData;$/;"	t	typeref:struct:__anon12
+VPAD_BUTTON_A	.\src\dynamic_libs\vpad_functions.h	36;"	d
+VPAD_BUTTON_B	.\src\dynamic_libs\vpad_functions.h	37;"	d
+VPAD_BUTTON_DOWN	.\src\dynamic_libs\vpad_functions.h	43;"	d
+VPAD_BUTTON_HOME	.\src\dynamic_libs\vpad_functions.h	50;"	d
+VPAD_BUTTON_L	.\src\dynamic_libs\vpad_functions.h	46;"	d
+VPAD_BUTTON_LEFT	.\src\dynamic_libs\vpad_functions.h	40;"	d
+VPAD_BUTTON_MINUS	.\src\dynamic_libs\vpad_functions.h	49;"	d
+VPAD_BUTTON_PLUS	.\src\dynamic_libs\vpad_functions.h	48;"	d
+VPAD_BUTTON_R	.\src\dynamic_libs\vpad_functions.h	47;"	d
+VPAD_BUTTON_RIGHT	.\src\dynamic_libs\vpad_functions.h	41;"	d
+VPAD_BUTTON_STICK_L	.\src\dynamic_libs\vpad_functions.h	53;"	d
+VPAD_BUTTON_STICK_R	.\src\dynamic_libs\vpad_functions.h	52;"	d
+VPAD_BUTTON_SYNC	.\src\dynamic_libs\vpad_functions.h	51;"	d
+VPAD_BUTTON_TOUCH	.\src\dynamic_libs\vpad_functions.h	69;"	d
+VPAD_BUTTON_TV	.\src\dynamic_libs\vpad_functions.h	54;"	d
+VPAD_BUTTON_UP	.\src\dynamic_libs\vpad_functions.h	42;"	d
+VPAD_BUTTON_X	.\src\dynamic_libs\vpad_functions.h	38;"	d
+VPAD_BUTTON_Y	.\src\dynamic_libs\vpad_functions.h	39;"	d
+VPAD_BUTTON_ZL	.\src\dynamic_libs\vpad_functions.h	44;"	d
+VPAD_BUTTON_ZR	.\src\dynamic_libs\vpad_functions.h	45;"	d
+VPAD_STICK_L_EMULATION_DOWN	.\src\dynamic_libs\vpad_functions.h	66;"	d
+VPAD_STICK_L_EMULATION_LEFT	.\src\dynamic_libs\vpad_functions.h	63;"	d
+VPAD_STICK_L_EMULATION_RIGHT	.\src\dynamic_libs\vpad_functions.h	64;"	d
+VPAD_STICK_L_EMULATION_UP	.\src\dynamic_libs\vpad_functions.h	65;"	d
+VPAD_STICK_R_EMULATION_DOWN	.\src\dynamic_libs\vpad_functions.h	61;"	d
+VPAD_STICK_R_EMULATION_LEFT	.\src\dynamic_libs\vpad_functions.h	58;"	d
+VPAD_STICK_R_EMULATION_RIGHT	.\src\dynamic_libs\vpad_functions.h	59;"	d
+VPAD_STICK_R_EMULATION_UP	.\src\dynamic_libs\vpad_functions.h	60;"	d
+Vec2D	.\src\dynamic_libs\vpad_functions.h	/^} Vec2D;$/;"	t	typeref:struct:__anon11
+WAIT	.\src\keyboard.c	21;"	d	file:
+WIIU_PATH	.\src\common\common.h	12;"	d
+WPAD_BUTTON_1	.\src\dynamic_libs\padscore_functions.h	43;"	d
+WPAD_BUTTON_2	.\src\dynamic_libs\padscore_functions.h	42;"	d
+WPAD_BUTTON_A	.\src\dynamic_libs\padscore_functions.h	45;"	d
+WPAD_BUTTON_B	.\src\dynamic_libs\padscore_functions.h	44;"	d
+WPAD_BUTTON_C	.\src\dynamic_libs\padscore_functions.h	48;"	d
+WPAD_BUTTON_DOWN	.\src\dynamic_libs\padscore_functions.h	39;"	d
+WPAD_BUTTON_HOME	.\src\dynamic_libs\padscore_functions.h	49;"	d
+WPAD_BUTTON_LEFT	.\src\dynamic_libs\padscore_functions.h	37;"	d
+WPAD_BUTTON_MINUS	.\src\dynamic_libs\padscore_functions.h	46;"	d
+WPAD_BUTTON_PLUS	.\src\dynamic_libs\padscore_functions.h	41;"	d
+WPAD_BUTTON_RIGHT	.\src\dynamic_libs\padscore_functions.h	38;"	d
+WPAD_BUTTON_UP	.\src\dynamic_libs\padscore_functions.h	40;"	d
+WPAD_BUTTON_Z	.\src\dynamic_libs\padscore_functions.h	47;"	d
+WPAD_CLASSIC_BUTTON_A	.\src\dynamic_libs\padscore_functions.h	55;"	d
+WPAD_CLASSIC_BUTTON_B	.\src\dynamic_libs\padscore_functions.h	57;"	d
+WPAD_CLASSIC_BUTTON_DOWN	.\src\dynamic_libs\padscore_functions.h	64;"	d
+WPAD_CLASSIC_BUTTON_HOME	.\src\dynamic_libs\padscore_functions.h	61;"	d
+WPAD_CLASSIC_BUTTON_L	.\src\dynamic_libs\padscore_functions.h	63;"	d
+WPAD_CLASSIC_BUTTON_LEFT	.\src\dynamic_libs\padscore_functions.h	52;"	d
+WPAD_CLASSIC_BUTTON_MINUS	.\src\dynamic_libs\padscore_functions.h	62;"	d
+WPAD_CLASSIC_BUTTON_PLUS	.\src\dynamic_libs\padscore_functions.h	60;"	d
+WPAD_CLASSIC_BUTTON_R	.\src\dynamic_libs\padscore_functions.h	59;"	d
+WPAD_CLASSIC_BUTTON_RIGHT	.\src\dynamic_libs\padscore_functions.h	65;"	d
+WPAD_CLASSIC_BUTTON_UP	.\src\dynamic_libs\padscore_functions.h	51;"	d
+WPAD_CLASSIC_BUTTON_X	.\src\dynamic_libs\padscore_functions.h	54;"	d
+WPAD_CLASSIC_BUTTON_Y	.\src\dynamic_libs\padscore_functions.h	56;"	d
+WPAD_CLASSIC_BUTTON_ZL	.\src\dynamic_libs\padscore_functions.h	58;"	d
+WPAD_CLASSIC_BUTTON_ZR	.\src\dynamic_libs\padscore_functions.h	53;"	d
+WPAD_PRO_BUTTON_A	.\src\dynamic_libs\padscore_functions.h	71;"	d
+WPAD_PRO_BUTTON_B	.\src\dynamic_libs\padscore_functions.h	73;"	d
+WPAD_PRO_BUTTON_DOWN	.\src\dynamic_libs\padscore_functions.h	81;"	d
+WPAD_PRO_BUTTON_HOME	.\src\dynamic_libs\padscore_functions.h	78;"	d
+WPAD_PRO_BUTTON_LEFT	.\src\dynamic_libs\padscore_functions.h	68;"	d
+WPAD_PRO_BUTTON_MINUS	.\src\dynamic_libs\padscore_functions.h	79;"	d
+WPAD_PRO_BUTTON_PLUS	.\src\dynamic_libs\padscore_functions.h	77;"	d
+WPAD_PRO_BUTTON_RIGHT	.\src\dynamic_libs\padscore_functions.h	82;"	d
+WPAD_PRO_BUTTON_STICK_L	.\src\dynamic_libs\padscore_functions.h	84;"	d
+WPAD_PRO_BUTTON_STICK_R	.\src\dynamic_libs\padscore_functions.h	83;"	d
+WPAD_PRO_BUTTON_UP	.\src\dynamic_libs\padscore_functions.h	67;"	d
+WPAD_PRO_BUTTON_X	.\src\dynamic_libs\padscore_functions.h	70;"	d
+WPAD_PRO_BUTTON_Y	.\src\dynamic_libs\padscore_functions.h	72;"	d
+WPAD_PRO_RESERVED	.\src\dynamic_libs\padscore_functions.h	75;"	d
+WPAD_PRO_STICK_L_EMULATION_DOWN	.\src\dynamic_libs\padscore_functions.h	87;"	d
+WPAD_PRO_STICK_L_EMULATION_LEFT	.\src\dynamic_libs\padscore_functions.h	88;"	d
+WPAD_PRO_STICK_L_EMULATION_RIGHT	.\src\dynamic_libs\padscore_functions.h	89;"	d
+WPAD_PRO_STICK_L_EMULATION_UP	.\src\dynamic_libs\padscore_functions.h	86;"	d
+WPAD_PRO_STICK_R_EMULATION_DOWN	.\src\dynamic_libs\padscore_functions.h	92;"	d
+WPAD_PRO_STICK_R_EMULATION_LEFT	.\src\dynamic_libs\padscore_functions.h	93;"	d
+WPAD_PRO_STICK_R_EMULATION_RIGHT	.\src\dynamic_libs\padscore_functions.h	94;"	d
+WPAD_PRO_STICK_R_EMULATION_UP	.\src\dynamic_libs\padscore_functions.h	91;"	d
+WPAD_PRO_TRIGGER_L	.\src\dynamic_libs\padscore_functions.h	80;"	d
+WPAD_PRO_TRIGGER_R	.\src\dynamic_libs\padscore_functions.h	76;"	d
+WPAD_PRO_TRIGGER_ZL	.\src\dynamic_libs\padscore_functions.h	74;"	d
+WPAD_PRO_TRIGGER_ZR	.\src\dynamic_libs\padscore_functions.h	69;"	d
+_GX2AttribStream	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2AttribStream {$/;"	s
+_GX2AttribVar	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2AttribVar$/;"	s
+_GX2Color	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2Color {$/;"	s
+_GX2ColorBuffer	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2ColorBuffer {$/;"	s
+_GX2ColorF32	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2ColorF32 {$/;"	s
+_GX2ContextState	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2ContextState {$/;"	s
+_GX2DepthBuffer	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2DepthBuffer {$/;"	s
+_GX2FetchShader	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2FetchShader {$/;"	s
+_GX2PixelShader	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2PixelShader {$/;"	s
+_GX2Sampler	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2Sampler {$/;"	s
+_GX2SamplerVar	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2SamplerVar$/;"	s
+_GX2Surface	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2Surface {$/;"	s
+_GX2Texture	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2Texture {$/;"	s
+_GX2UniformBlock	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2UniformBlock {$/;"	s
+_GX2UniformInitialValue	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2UniformInitialValue {$/;"	s
+_GX2UniformVar	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2UniformVar$/;"	s
+_GX2VertexShader	.\src\dynamic_libs\gx2_types.h	/^typedef struct _GX2VertexShader {$/;"	s
+_GX2_TYPES_H_	.\src\dynamic_libs\gx2_types.h	25;"	d
+_HIDClient	.\src\dynamic_libs\syshid_functions.h	/^struct _HIDClient$/;"	s
+_KPADData	.\src\dynamic_libs\padscore_functions.h	/^typedef struct _KPADData$/;"	s
+_MAIN_H_	.\src\main.h	2;"	d
+_OSCalendarTime	.\src\dynamic_libs\os_types.h	/^typedef struct _OSCalendarTime {$/;"	s
+_OS_TYPES_H_	.\src\dynamic_libs\os_types.h	2;"	d
+_OsSpecifics	.\src\common\os_defs.h	/^typedef struct _OsSpecifics$/;"	s
+__ACP_FUNCTIONS_H_	.\src\dynamic_libs\acp_functions.h	25;"	d
+__AOC_FUNCTIONS_H_	.\src\dynamic_libs\aoc_functions.h	25;"	d
+__AX_FUNCTIONS_H_	.\src\dynamic_libs\ax_functions.h	25;"	d
+__CURL_FUNCTIONS_H_	.\src\dynamic_libs\curl_functions.h	25;"	d
+__FS_FUNCTIONS_H_	.\src\dynamic_libs\fs_functions.h	25;"	d
+__FS_UTILS_H_	.\src\fs\fs_utils.h	2;"	d
+__GX2_FUNCTIONS_H_	.\src\dynamic_libs\gx2_functions.h	25;"	d
+__LOGGER_H_	.\src\utils\logger.h	2;"	d
+__MEMORY_H_	.\src\system\memory.h	18;"	d
+__OS_DEFS_H_	.\src\common\os_defs.h	2;"	d
+__OS_FUNCTIONS_H_	.\src\dynamic_libs\os_functions.h	25;"	d
+__PAD_SCORE_FUNCTIONS_H_	.\src\dynamic_libs\padscore_functions.h	25;"	d
+__SD_FAT_DEVOPTAB_H_	.\src\fs\sd_fat_devoptab.h	25;"	d
+__SOCKET_FUNCTIONS_H_	.\src\dynamic_libs\socket_functions.h	25;"	d
+__SYSHID_FUNCTIONS_H_	.\src\dynamic_libs\syshid_functions.h	25;"	d
+__SYS_FUNCTIONS_H_	.\src\dynamic_libs\sys_functions.h	25;"	d
+__UTILS_H_	.\src\utils\utils.h	2;"	d
+__VPAD_FUNCTIONS_H_	.\src\dynamic_libs\vpad_functions.h	25;"	d
+__entry_menu	.\src\entry.c	/^int __entry_menu(int argc, char **argv)$/;"	f
+__wrap__calloc_r	.\src\system\memory.c	/^void *__wrap__calloc_r(struct _reent *r, size_t n, size_t size)$/;"	f
+__wrap__free_r	.\src\system\memory.c	/^void __wrap__free_r(struct _reent *r, void *p)$/;"	f
+__wrap__malloc_r	.\src\system\memory.c	/^void *__wrap__malloc_r(struct _reent *r, size_t size)$/;"	f
+__wrap__malloc_usable_size_r	.\src\system\memory.c	/^size_t __wrap__malloc_usable_size_r(struct _reent *r, void *p)$/;"	f
+__wrap__memalign_r	.\src\system\memory.c	/^void *__wrap__memalign_r(struct _reent *r, size_t align, size_t size)$/;"	f
+__wrap__realloc_r	.\src\system\memory.c	/^void *__wrap__realloc_r(struct _reent *r, void *p, size_t size)$/;"	f
+__wrap_calloc	.\src\system\memory.c	/^void *__wrap_calloc(size_t n, size_t size)$/;"	f
+__wrap_free	.\src\system\memory.c	/^void __wrap_free(void *p)$/;"	f
+__wrap_malloc	.\src\system\memory.c	/^void *__wrap_malloc(size_t size)$/;"	f
+__wrap_malloc_usable_size	.\src\system\memory.c	/^size_t __wrap_malloc_usable_size(void *p)$/;"	f
+__wrap_memalign	.\src\system\memory.c	/^void *__wrap_memalign(size_t align, size_t size)$/;"	f
+__wrap_realloc	.\src\system\memory.c	/^void *__wrap_realloc(void *p, size_t size)$/;"	f
+_sd_fat_dir_entry_t	.\src\fs\sd_fat_devoptab.c	/^typedef struct _sd_fat_dir_entry_t {$/;"	s	file:
+_sd_fat_file_state_t	.\src\fs\sd_fat_devoptab.c	/^typedef struct _sd_fat_file_state_t {$/;"	s	file:
+_sd_fat_private_t	.\src\fs\sd_fat_devoptab.c	/^typedef struct _sd_fat_private_t {$/;"	s	file:
+a	.\src\dynamic_libs\gx2_types.h	/^    f32 r, g, b, a;$/;"	m	struct:_GX2ColorF32
+a	.\src\dynamic_libs\gx2_types.h	/^    u8 r, g, b, a;$/;"	m	struct:_GX2Color
+aa	.\src\dynamic_libs\gx2_types.h	/^    s32 aa;$/;"	m	struct:_GX2Surface
+acp_handle	.\src\dynamic_libs\acp_functions.c	/^unsigned int acp_handle __attribute__((section(".data"))) = 0;$/;"	v
+addr_KernSyscallTbl1	.\src\common\os_defs.h	/^    unsigned int addr_KernSyscallTbl1;$/;"	m	struct:_OsSpecifics
+addr_KernSyscallTbl2	.\src\common\os_defs.h	/^    unsigned int addr_KernSyscallTbl2;$/;"	m	struct:_OsSpecifics
+addr_KernSyscallTbl3	.\src\common\os_defs.h	/^    unsigned int addr_KernSyscallTbl3;$/;"	m	struct:_OsSpecifics
+addr_KernSyscallTbl4	.\src\common\os_defs.h	/^    unsigned int addr_KernSyscallTbl4;$/;"	m	struct:_OsSpecifics
+addr_KernSyscallTbl5	.\src\common\os_defs.h	/^    unsigned int addr_KernSyscallTbl5;$/;"	m	struct:_OsSpecifics
+addr_OSDynLoad_Acquire	.\src\common\os_defs.h	/^    unsigned int addr_OSDynLoad_Acquire;$/;"	m	struct:_OsSpecifics
+addr_OSDynLoad_FindExport	.\src\common\os_defs.h	/^    unsigned int addr_OSDynLoad_FindExport;$/;"	m	struct:_OsSpecifics
+addr_OSTitle_main_entry	.\src\common\os_defs.h	/^    unsigned int addr_OSTitle_main_entry;$/;"	m	struct:_OsSpecifics
+align	.\src\dynamic_libs\gx2_types.h	/^    u32 align;$/;"	m	struct:_GX2Surface
+alloc_size	.\src\common\fs_defs.h	/^    uint32_t alloc_size;$/;"	m	struct:__anon1
+alloc_size	.\src\dynamic_libs\fs_defs.h	/^    uint32_t alloc_size;$/;"	m	struct:__anon4
+angle_x	.\src\dynamic_libs\padscore_functions.h	/^    f32 angle_x;$/;"	m	struct:_KPADData
+angle_y	.\src\dynamic_libs\padscore_functions.h	/^    f32 angle_y;$/;"	m	struct:_KPADData
+aoc_handle	.\src\dynamic_libs\aoc_functions.c	/^unsigned int aoc_handle __attribute__((section(".data"))) = 0;$/;"	v
+append	.\src\fs\sd_fat_devoptab.c	/^    bool append;                                \/* True if allowed to append to file *\/$/;"	m	struct:_sd_fat_file_state_t	file:
+array_count	.\src\dynamic_libs\gx2_types.h	/^    u32 array_count;$/;"	m	struct:_GX2AttribVar
+array_count	.\src\dynamic_libs\gx2_types.h	/^    u32 array_count;$/;"	m	struct:_GX2UniformVar
+attach_cb	.\src\dynamic_libs\syshid_functions.h	/^	HIDAttachCallback attach_cb;$/;"	m	struct:_HIDClient
+attribute_dest_comp_selector	.\src\dynamic_libs\gx2_types.h	/^static const u32 attribute_dest_comp_selector[20] = {$/;"	v
+attribute_var	.\src\dynamic_libs\gx2_types.h	/^    GX2AttribVar *attribute_var;$/;"	m	struct:_GX2VertexShader
+attribute_vars_count	.\src\dynamic_libs\gx2_types.h	/^    u32 attribute_vars_count;$/;"	m	struct:_GX2VertexShader
+attributes	.\src\common\fs_defs.h	/^    uint8_t attributes[48];$/;"	m	struct:__anon1
+attributes	.\src\dynamic_libs\fs_defs.h	/^    uint8_t attributes[48];$/;"	m	struct:__anon4
+attributes_count	.\src\dynamic_libs\gx2_types.h	/^    u32 attributes_count;$/;"	m	struct:_GX2FetchShader
+aux_data	.\src\dynamic_libs\gx2_types.h	/^    void *aux_data;$/;"	m	struct:_GX2ColorBuffer
+aux_size	.\src\dynamic_libs\gx2_types.h	/^    u32  aux_size;$/;"	m	struct:_GX2ColorBuffer
+b	.\src\dynamic_libs\gx2_types.h	/^    f32 r, g, b, a;$/;"	m	struct:_GX2ColorF32
+b	.\src\dynamic_libs\gx2_types.h	/^    u8 r, g, b, a;$/;"	m	struct:_GX2Color
+b	.\src\keyboard.h	/^	int b;$/;"	m	struct:renderFlags
+bTouched	.\src\keyboard.h	/^	int bTouched;$/;"	m	struct:renderFlags
+battery	.\src\dynamic_libs\vpad_functions.h	/^    uint8_t battery;             \/* 0 to 6 *\/$/;"	m	struct:__anon13
+bc	.\src\keyboard.h	/^	char bc;$/;"	m	struct:renderFlags
+block_index	.\src\dynamic_libs\gx2_types.h	/^    u32 block_index;$/;"	m	struct:_GX2UniformVar
+block_size	.\src\dynamic_libs\gx2_types.h	/^    u32 block_size;$/;"	m	struct:_GX2UniformBlock
+btns_d	.\src\dynamic_libs\padscore_functions.h	/^            u32 btns_d;$/;"	m	struct:_KPADData::__anon6::__anon8
+btns_d	.\src\dynamic_libs\padscore_functions.h	/^            u32 btns_d;$/;"	m	struct:_KPADData::__anon6::__anon9
+btns_d	.\src\dynamic_libs\padscore_functions.h	/^    u32 btns_d;$/;"	m	struct:_KPADData
+btns_d	.\src\dynamic_libs\vpad_functions.h	/^    u32 btns_d;                  \/* Buttons that are pressed at that instant *\/$/;"	m	struct:__anon13
+btns_h	.\src\dynamic_libs\padscore_functions.h	/^            u32 btns_h;$/;"	m	struct:_KPADData::__anon6::__anon8
+btns_h	.\src\dynamic_libs\padscore_functions.h	/^            u32 btns_h;$/;"	m	struct:_KPADData::__anon6::__anon9
+btns_h	.\src\dynamic_libs\padscore_functions.h	/^    u32 btns_h;$/;"	m	struct:_KPADData
+btns_h	.\src\dynamic_libs\vpad_functions.h	/^    u32 btns_h;                  \/* Held buttons *\/$/;"	m	struct:__anon13
+btns_r	.\src\dynamic_libs\padscore_functions.h	/^            u32 btns_r;$/;"	m	struct:_KPADData::__anon6::__anon8
+btns_r	.\src\dynamic_libs\padscore_functions.h	/^            u32 btns_r;$/;"	m	struct:_KPADData::__anon6::__anon9
+btns_r	.\src\dynamic_libs\padscore_functions.h	/^    u32 btns_r;$/;"	m	struct:_KPADData
+btns_r	.\src\dynamic_libs\vpad_functions.h	/^    u32 btns_r;                  \/* Released buttons *\/$/;"	m	struct:__anon13
+bucket_heap	.\src\system\memory.c	/^static int bucket_heap = -1;$/;"	v	file:
+buffer	.\src\dynamic_libs\gx2_types.h	/^    u32 buffer;$/;"	m	struct:_GX2AttribStream
+button_pressed	.\src\easy\vpad.h	14;"	d
+change_theme	.\src\keyboard.h	/^	int change_theme;$/;"	m	struct:renderFlags
+charging	.\src\dynamic_libs\padscore_functions.h	/^            int charging;$/;"	m	struct:_KPADData::__anon6::__anon9
+classic	.\src\dynamic_libs\padscore_functions.h	/^        } classic;$/;"	m	union:_KPADData::__anon6	typeref:struct:_KPADData::__anon6::__anon8
+clear_depth	.\src\dynamic_libs\gx2_types.h	/^    f32 clear_depth;$/;"	m	struct:_GX2DepthBuffer
+clear_stencil	.\src\dynamic_libs\gx2_types.h	/^    u32 clear_stencil;$/;"	m	struct:_GX2DepthBuffer
+clrscr	.\src\easy\screen.h	9;"	d
+column	.\src\screen\tty.c	/^u32 column = 0;$/;"	v
+component_selector	.\src\dynamic_libs\gx2_types.h	/^    u32 component_selector;$/;"	m	struct:_GX2Texture
+coreinit_handle	.\src\dynamic_libs\os_functions.c	/^unsigned int coreinit_handle __attribute__((section(".data"))) = 0;$/;"	v
+ctime	.\src\common\fs_defs.h	/^    uint64_t ctime;$/;"	m	struct:__anon1
+ctime	.\src\dynamic_libs\fs_defs.h	/^    uint64_t ctime;$/;"	m	struct:__anon4
+data	.\src\dynamic_libs\gx2_types.h	/^    u32 data[6];$/;"	m	struct:_GX2VertexShader
+data	.\src\dynamic_libs\gx2_types.h	/^    u8 data[GX2_CONTEXT_STATE_SIZE];$/;"	m	struct:_GX2ContextState
+depth	.\src\dynamic_libs\gx2_types.h	/^    u32 depth;$/;"	m	struct:_GX2Surface
+destination_selector	.\src\dynamic_libs\gx2_types.h	/^    u32 destination_selector;$/;"	m	struct:_GX2AttribStream
+dev	.\src\fs\sd_fat_devoptab.c	/^    sd_fat_private_t *dev;$/;"	m	struct:_sd_fat_dir_entry_t	file:
+dev	.\src\fs\sd_fat_devoptab.c	/^    sd_fat_private_t *dev;$/;"	m	struct:_sd_fat_file_state_t	file:
+device_type	.\src\dynamic_libs\padscore_functions.h	/^    u8 device_type;$/;"	m	struct:_KPADData
+devops_sd_fat	.\src\fs\sd_fat_devoptab.c	/^static const devoptab_t devops_sd_fat = {$/;"	v	file:
+dimension	.\src\dynamic_libs\gx2_types.h	/^    s32 dimension;$/;"	m	struct:_GX2Surface
+dirHandle	.\src\fs\sd_fat_devoptab.c	/^    int dirHandle;$/;"	m	struct:_sd_fat_dir_entry_t	file:
+divisor	.\src\dynamic_libs\gx2_types.h	/^    u32 divisor;$/;"	m	struct:_GX2AttribStream
+divisor	.\src\dynamic_libs\gx2_types.h	/^    u32 divisor[3];$/;"	m	struct:_GX2FetchShader
+dotab_stdout	.\src\screen\tty.c	/^static devoptab_t dotab_stdout;$/;"	v	file:
+drawChar	.\src\keyboard.c	/^void drawChar(char character, int xpos, int ypos, int scale, char r, char g, char b, char a)$/;"	f
+drawCircle	.\src\draw.c	/^void drawCircle(int xCen, int yCen, int radius, char r, char g, char b, char a)$/;"	f
+drawCircleCircum	.\src\draw.c	/^void drawCircleCircum(int cx, int cy, int x, int y, char r, char g, char b, char a)$/;"	f
+drawDiagLine	.\src\draw.c	/^void drawDiagLine(int x_start, int y_start, int y_end, int thickness, char left_right, char up_down, char r, char g, char b, char a)$/;"	f
+drawFillCircle	.\src\draw.c	/^void drawFillCircle(int xCen, int yCen, int radius, char r, char g, char b, char a)$/;"	f
+drawFillRect	.\src\draw.c	/^void drawFillRect(int x1, int y1, int x2, int y2, char r, char g, char b, char a)$/;"	f
+drawLine	.\src\draw.c	/^void drawLine(int x1, int y1, int x2, int y2, char r, char g, char b, char a)$/;"	f
+drawOwnString	.\src\keyboard.c	/^void drawOwnString(int xpos, int ypos, char * string, int length, char r, char g, char b, char a)$/;"	f
+drawPixel	.\src\draw.c	/^void drawPixel(int x, int y, char r, char g, char b, char a)$/;"	f
+drawRect	.\src\draw.c	/^void drawRect(int x1, int y1, int x2, int y2, char r, char g, char b, char a)$/;"	f
+drawString	.\src\draw.c	/^void drawString(int x, int line, char * string)$/;"	f
+drawStringTV	.\src\keyboard.c	/^void drawStringTV(int x, int line, char * string)$/;"	f
+endian_swap	.\src\dynamic_libs\gx2_types.h	/^    s32 endian_swap;$/;"	m	struct:_GX2AttribStream
+ent_id	.\src\common\fs_defs.h	/^    uint32_t ent_id;$/;"	m	struct:__anon1
+ent_id	.\src\dynamic_libs\fs_defs.h	/^    uint32_t ent_id;$/;"	m	struct:__anon4
+exception_callback	.\src\dynamic_libs\os_functions.h	/^typedef unsigned char (*exception_callback)(void * interruptedContext);$/;"	t
+fd	.\src\fs\sd_fat_devoptab.c	/^    int fd;                                     \/* File descriptor *\/$/;"	m	struct:_sd_fat_file_state_t	file:
+fillScreen	.\src\draw.c	/^void fillScreen(char r,char g,char b,char a)$/;"	f
+fillTV	.\src\keyboard.c	/^void fillTV(char r, char g, char b, char a)$/;"	f
+flag	.\src\common\fs_defs.h	/^    uint32_t flag;$/;"	m	struct:__anon1
+flag	.\src\dynamic_libs\fs_defs.h	/^    uint32_t flag;$/;"	m	struct:__anon4
+flags	.\src\fs\sd_fat_devoptab.c	/^    int flags;                                  \/* Opening flags *\/$/;"	m	struct:_sd_fat_file_state_t	file:
+flipBuffers	.\src\draw.c	/^void flipBuffers()$/;"	f
+font_bin	.\src\screen\font.c	/^const unsigned char font_bin[] = {$/;"	v
+format	.\src\dynamic_libs\gx2_types.h	/^    s32 format;$/;"	m	struct:_GX2AttribStream
+format	.\src\dynamic_libs\gx2_types.h	/^    s32 format;$/;"	m	struct:_GX2Surface
+format	.\src\dynamic_libs\padscore_functions.h	/^    u8 format;$/;"	m	struct:_KPADData
+framebuffer	.\src\screen\tty.c	/^u32* framebuffer = BUF_ADDR_1;$/;"	v
+framebuffer_size	.\src\screen\tty.c	/^u32  framebuffer_size = BUF_SIZE_1;$/;"	v
+g	.\src\dynamic_libs\gx2_types.h	/^    f32 r, g, b, a;$/;"	m	struct:_GX2ColorF32
+g	.\src\dynamic_libs\gx2_types.h	/^    u8 r, g, b, a;$/;"	m	struct:_GX2Color
+gc	.\src\keyboard.h	/^	char gc;$/;"	m	struct:renderFlags
+group_ID	.\src\dynamic_libs\aoc_functions.h	/^    u32     group_ID;$/;"	m	struct:__anon3
+group_id	.\src\common\fs_defs.h	/^    uint32_t group_id;$/;"	m	struct:__anon1
+group_id	.\src\dynamic_libs\fs_defs.h	/^    uint32_t group_id;$/;"	m	struct:__anon4
+gx2_handle	.\src\dynamic_libs\gx2_functions.c	/^unsigned int gx2_handle __attribute__((section(".data"))) = 0;$/;"	v
+handle	.\src\dynamic_libs\syshid_functions.h	/^	unsigned int handle;$/;"	m	struct:__anon10
+height	.\src\dynamic_libs\gx2_types.h	/^    u32 height;$/;"	m	struct:_GX2Surface
+hiZ_data	.\src\dynamic_libs\gx2_types.h	/^    void *hiZ_data;$/;"	m	struct:_GX2DepthBuffer
+hiZ_size	.\src\dynamic_libs\gx2_types.h	/^    u32  hiZ_size;$/;"	m	struct:_GX2DepthBuffer
+hostIpAddress	.\src\dynamic_libs\socket_functions.c	/^u32 hostIpAddress = 0;$/;"	v
+hour	.\src\dynamic_libs\os_types.h	/^  int hour;$/;"	m	struct:_OSCalendarTime
+htonl	.\src\dynamic_libs\socket_functions.h	56;"	d
+htons	.\src\dynamic_libs\socket_functions.h	57;"	d
+image_data	.\src\dynamic_libs\gx2_types.h	/^    void *image_data;$/;"	m	struct:_GX2Surface
+image_size	.\src\dynamic_libs\gx2_types.h	/^    u32 image_size;$/;"	m	struct:_GX2Surface
+in_addr	.\src\dynamic_libs\socket_functions.h	/^struct in_addr {$/;"	s
+index_type	.\src\dynamic_libs\gx2_types.h	/^    s32 index_type;$/;"	m	struct:_GX2AttribStream
+initial_value	.\src\dynamic_libs\gx2_types.h	/^    GX2UniformInitialValue *initial_value;$/;"	m	struct:_GX2PixelShader
+initial_value	.\src\dynamic_libs\gx2_types.h	/^    GX2UniformInitialValue *initial_value;$/;"	m	struct:_GX2VertexShader
+initial_values_count	.\src\dynamic_libs\gx2_types.h	/^    u32 initial_values_count;$/;"	m	struct:_GX2PixelShader
+initial_values_count	.\src\dynamic_libs\gx2_types.h	/^    u32 initial_values_count;$/;"	m	struct:_GX2VertexShader
+interface_index	.\src\dynamic_libs\syshid_functions.h	/^	unsigned char interface_index;$/;"	m	struct:__anon10
+invalid	.\src\dynamic_libs\vpad_functions.h	/^    u16 invalid;            \/* 0 = All valid, 1 = X invalid, 2 = Y invalid, 3 = Both invalid? *\/$/;"	m	struct:__anon12
+keyAPressed	.\src\keyboard.h	/^	int keyAPressed;$/;"	m	struct:renderFlags
+keyBPressed	.\src\keyboard.h	/^	int keyBPressed;$/;"	m	struct:renderFlags
+keyBackspacePressed	.\src\keyboard.h	/^	int keyBackspacePressed;$/;"	m	struct:renderFlags
+keyCPressed	.\src\keyboard.h	/^	int keyCPressed;$/;"	m	struct:renderFlags
+keyColonPressed	.\src\keyboard.h	/^	int keyColonPressed;$/;"	m	struct:renderFlags
+keyDPressed	.\src\keyboard.h	/^	int keyDPressed;$/;"	m	struct:renderFlags
+keyEPressed	.\src\keyboard.h	/^	int keyEPressed;$/;"	m	struct:renderFlags
+keyFPressed	.\src\keyboard.h	/^	int keyFPressed;$/;"	m	struct:renderFlags
+keyGPressed	.\src\keyboard.h	/^	int keyGPressed;$/;"	m	struct:renderFlags
+keyHPressed	.\src\keyboard.h	/^	int keyHPressed;$/;"	m	struct:renderFlags
+keyIPressed	.\src\keyboard.h	/^	int keyIPressed;$/;"	m	struct:renderFlags
+keyJPressed	.\src\keyboard.h	/^	int keyJPressed;$/;"	m	struct:renderFlags
+keyKPressed	.\src\keyboard.h	/^	int keyKPressed;$/;"	m	struct:renderFlags
+keyLPressed	.\src\keyboard.h	/^	int keyLPressed;$/;"	m	struct:renderFlags
+keyMPressed	.\src\keyboard.h	/^	int keyMPressed;$/;"	m	struct:renderFlags
+keyNPressed	.\src\keyboard.h	/^	int keyNPressed;$/;"	m	struct:renderFlags
+keyOPressed	.\src\keyboard.h	/^	int keyOPressed;$/;"	m	struct:renderFlags
+keyPPressed	.\src\keyboard.h	/^	int keyPPressed;$/;"	m	struct:renderFlags
+keyPeriodPressed	.\src\keyboard.h	/^	int keyPeriodPressed;$/;"	m	struct:renderFlags
+keyQPressed	.\src\keyboard.h	/^	int keyQPressed;$/;"	m	struct:renderFlags
+keyRPressed	.\src\keyboard.h	/^	int keyRPressed;$/;"	m	struct:renderFlags
+keySPressed	.\src\keyboard.h	/^	int keySPressed;$/;"	m	struct:renderFlags
+keySpacePressed	.\src\keyboard.h	/^	int keySpacePressed;$/;"	m	struct:renderFlags
+keyTPressed	.\src\keyboard.h	/^	int keyTPressed;$/;"	m	struct:renderFlags
+keyUPressed	.\src\keyboard.h	/^	int keyUPressed;$/;"	m	struct:renderFlags
+keyVPressed	.\src\keyboard.h	/^	int keyVPressed;$/;"	m	struct:renderFlags
+keyWPressed	.\src\keyboard.h	/^	int keyWPressed;$/;"	m	struct:renderFlags
+keyXPressed	.\src\keyboard.h	/^	int keyXPressed;$/;"	m	struct:renderFlags
+keyYPressed	.\src\keyboard.h	/^	int keyYPressed;$/;"	m	struct:renderFlags
+keyZPressed	.\src\keyboard.h	/^	int keyZPressed;$/;"	m	struct:renderFlags
+launchKeyboard	.\src\keyboard.c	/^void launchKeyboard(char (*returnedString)[256])$/;"	f
+le16	.\src\utils\utils.h	39;"	d
+le32	.\src\utils\utils.h	40;"	d
+le64	.\src\utils\utils.h	41;"	d
+len	.\src\fs\sd_fat_devoptab.c	/^    u64 len;                                    \/* Total length of the file (in bytes) *\/$/;"	m	struct:_sd_fat_file_state_t	file:
+libcurl_handle	.\src\dynamic_libs\curl_functions.c	/^unsigned int libcurl_handle __attribute__((section(".data"))) = 0;$/;"	v
+line	.\src\screen\tty.c	/^u32 line = 0;$/;"	v
+location	.\src\dynamic_libs\gx2_types.h	/^    u32 location;$/;"	m	struct:_GX2AttribStream
+location	.\src\dynamic_libs\gx2_types.h	/^    u32 location;$/;"	m	struct:_GX2AttribVar
+location	.\src\dynamic_libs\gx2_types.h	/^    u32 location;$/;"	m	struct:_GX2SamplerVar
+location	.\src\dynamic_libs\gx2_types.h	/^    u32 location;$/;"	m	struct:_GX2UniformBlock
+log_deinit	.\src\utils\logger.c	/^void log_deinit(void)$/;"	f
+log_deinit	.\src\utils\logger.h	17;"	d
+log_init	.\src\utils\logger.c	/^void log_init(const char * ipString)$/;"	f
+log_init	.\src\utils\logger.h	16;"	d
+log_lock	.\src\utils\logger.c	/^static volatile int log_lock = 0;$/;"	v	file:
+log_print	.\src\utils\logger.c	/^void log_print(const char *str)$/;"	f
+log_print	.\src\utils\logger.h	18;"	d
+log_printf	.\src\utils\logger.c	/^void log_printf(const char *format, ...)$/;"	f
+log_printf	.\src\utils\logger.h	19;"	d
+log_socket	.\src\utils\logger.c	/^static int log_socket = -1;$/;"	v	file:
+loops_count	.\src\dynamic_libs\gx2_types.h	/^    u32 loops_count;$/;"	m	struct:_GX2PixelShader
+loops_count	.\src\dynamic_libs\gx2_types.h	/^    u32 loops_count;$/;"	m	struct:_GX2VertexShader
+loops_data	.\src\dynamic_libs\gx2_types.h	/^    void *loops_data;$/;"	m	struct:_GX2PixelShader
+loops_data	.\src\dynamic_libs\gx2_types.h	/^    void *loops_data;$/;"	m	struct:_GX2VertexShader
+lstick	.\src\dynamic_libs\vpad_functions.h	/^    Vec2D lstick, rstick;        \/* Each contains 4-byte X and Y components *\/$/;"	m	struct:__anon13
+lstick_x	.\src\dynamic_libs\padscore_functions.h	/^            f32 lstick_x;$/;"	m	struct:_KPADData::__anon6::__anon8
+lstick_x	.\src\dynamic_libs\padscore_functions.h	/^            f32 lstick_x;$/;"	m	struct:_KPADData::__anon6::__anon9
+lstick_y	.\src\dynamic_libs\padscore_functions.h	/^            f32 lstick_y;$/;"	m	struct:_KPADData::__anon6::__anon8
+lstick_y	.\src\dynamic_libs\padscore_functions.h	/^            f32 lstick_y;$/;"	m	struct:_KPADData::__anon6::__anon9
+ltrigger	.\src\dynamic_libs\padscore_functions.h	/^            f32 ltrigger;$/;"	m	struct:_KPADData::__anon6::__anon8
+max_packet_size_rx	.\src\dynamic_libs\syshid_functions.h	/^	unsigned short max_packet_size_rx;$/;"	m	struct:__anon10
+max_packet_size_tx	.\src\dynamic_libs\syshid_functions.h	/^	unsigned short max_packet_size_tx;$/;"	m	struct:__anon10
+mday	.\src\dynamic_libs\os_types.h	/^  int mday;$/;"	m	struct:_OSCalendarTime
+mem1_heap	.\src\system\memory.c	/^static int mem1_heap = -1;$/;"	v	file:
+memory_end	.\src\system\memory.c	/^void memory_end(void)$/;"	f
+memory_init	.\src\system\memory.c	/^void memory_init(void)$/;"	f
+menu	.\src\keyboard.h	/^	int menu;$/;"	m	struct:renderFlags
+min	.\src\dynamic_libs\os_types.h	/^  int min;$/;"	m	struct:_OSCalendarTime
+mip_data	.\src\dynamic_libs\gx2_types.h	/^    void *mip_data;$/;"	m	struct:_GX2Surface
+mip_offset	.\src\dynamic_libs\gx2_types.h	/^    u32 mip_offset[13];$/;"	m	struct:_GX2Surface
+mip_size	.\src\dynamic_libs\gx2_types.h	/^    u32 mip_size;$/;"	m	struct:_GX2Surface
+mon	.\src\dynamic_libs\os_types.h	/^  int mon;$/;"	m	struct:_OSCalendarTime
+mount_path	.\src\fs\sd_fat_devoptab.c	/^    char *mount_path;$/;"	m	struct:_sd_fat_private_t	file:
+mount_sd_fat	.\src\fs\sd_fat_devoptab.c	/^int mount_sd_fat(const char *path)$/;"	f
+msec	.\src\dynamic_libs\os_types.h	/^  int msec;$/;"	m	struct:_OSCalendarTime
+mtime	.\src\common\fs_defs.h	/^    uint64_t mtime;$/;"	m	struct:__anon1
+mtime	.\src\dynamic_libs\fs_defs.h	/^    uint64_t mtime;$/;"	m	struct:__anon4
+name	.\src\common\fs_defs.h	/^    char        name[FS_MAX_ENTNAME_SIZE];$/;"	m	struct:__anon2
+name	.\src\dynamic_libs\fs_defs.h	/^    char        name[FS_MAX_ENTNAME_SIZE];$/;"	m	struct:__anon5
+name	.\src\dynamic_libs\gx2_types.h	/^    const char *name;$/;"	m	struct:_GX2AttribVar
+name	.\src\dynamic_libs\gx2_types.h	/^    const char *name;$/;"	m	struct:_GX2SamplerVar
+name	.\src\dynamic_libs\gx2_types.h	/^    const char *name;$/;"	m	struct:_GX2UniformBlock
+name	.\src\dynamic_libs\gx2_types.h	/^    const char *name;$/;"	m	struct:_GX2UniformVar
+next	.\src\dynamic_libs\syshid_functions.h	/^	HIDClient *next;$/;"	m	struct:_HIDClient
+nextOpenFile	.\src\fs\sd_fat_devoptab.c	/^    struct _sd_fat_file_state_t *nextOpenFile;  \/* The next entry in a double-linked FILO list of open files *\/$/;"	m	struct:_sd_fat_file_state_t	typeref:struct:_sd_fat_file_state_t::_sd_fat_file_state_t	file:
+nsysnet_handle	.\src\dynamic_libs\socket_functions.c	/^unsigned int nsysnet_handle __attribute__((section(".data"))) = 0;$/;"	v
+ntohl	.\src\dynamic_libs\socket_functions.h	58;"	d
+ntohs	.\src\dynamic_libs\socket_functions.h	59;"	d
+num_mips	.\src\dynamic_libs\gx2_types.h	/^    u32 num_mips;$/;"	m	struct:_GX2Surface
+nunchuck	.\src\dynamic_libs\padscore_functions.h	/^        } nunchuck;$/;"	m	union:_KPADData::__anon6	typeref:struct:_KPADData::__anon6::__anon7
+offset	.\src\dynamic_libs\gx2_types.h	/^    u32 offset;$/;"	m	struct:_GX2AttribStream
+offset	.\src\dynamic_libs\gx2_types.h	/^    u32 offset;$/;"	m	struct:_GX2UniformInitialValue
+offset	.\src\dynamic_libs\gx2_types.h	/^    u32 offset;$/;"	m	struct:_GX2UniformVar
+owner_id	.\src\common\fs_defs.h	/^    uint32_t owner_id;$/;"	m	struct:__anon1
+owner_id	.\src\dynamic_libs\fs_defs.h	/^    uint32_t owner_id;$/;"	m	struct:__anon4
+pClient	.\src\fs\sd_fat_devoptab.c	/^    void *pClient;$/;"	m	struct:_sd_fat_private_t	file:
+pCmd	.\src\fs\sd_fat_devoptab.c	/^    void *pCmd;$/;"	m	struct:_sd_fat_private_t	file:
+pMutex	.\src\fs\sd_fat_devoptab.c	/^    void *pMutex;$/;"	m	struct:_sd_fat_private_t	file:
+padscore_handle	.\src\dynamic_libs\padscore_functions.c	/^unsigned int padscore_handle __attribute__((section(".data"))) = 0;$/;"	v
+path	.\src\dynamic_libs\aoc_functions.h	/^    char    path[88];$/;"	m	struct:__anon3
+permission	.\src\common\fs_defs.h	/^    uint32_t permission;$/;"	m	struct:__anon1
+permission	.\src\dynamic_libs\fs_defs.h	/^    uint32_t permission;$/;"	m	struct:__anon4
+physical_device_inst	.\src\dynamic_libs\syshid_functions.h	/^	unsigned int physical_device_inst;$/;"	m	struct:__anon10
+pid	.\src\dynamic_libs\syshid_functions.h	/^	unsigned short pid;$/;"	m	struct:__anon10
+pitch	.\src\dynamic_libs\gx2_types.h	/^    u32 pitch;$/;"	m	struct:_GX2Surface
+plus	.\src\keyboard.h	/^	int plus;$/;"	m	struct:renderFlags
+plusTouched	.\src\keyboard.h	/^	int plusTouched;$/;"	m	struct:renderFlags
+pos	.\src\fs\sd_fat_devoptab.c	/^    u64 pos;                                    \/* Current position within the file (in bytes) *\/$/;"	m	struct:_sd_fat_file_state_t	file:
+pos_valid	.\src\dynamic_libs\padscore_functions.h	/^    u8 pos_valid;$/;"	m	struct:_KPADData
+pos_x	.\src\dynamic_libs\padscore_functions.h	/^    f32 pos_x;$/;"	m	struct:_KPADData
+pos_y	.\src\dynamic_libs\padscore_functions.h	/^    f32 pos_y;$/;"	m	struct:_KPADData
+prevOpenFile	.\src\fs\sd_fat_devoptab.c	/^    struct _sd_fat_file_state_t *prevOpenFile;  \/* The previous entry in a double-linked FILO list of open files *\/$/;"	m	struct:_sd_fat_file_state_t	typeref:struct:_sd_fat_file_state_t::_sd_fat_file_state_t	file:
+pro	.\src\dynamic_libs\padscore_functions.h	/^        } pro;$/;"	m	union:_KPADData::__anon6	typeref:struct:_KPADData::__anon6::__anon9
+protocol	.\src\dynamic_libs\syshid_functions.h	/^	unsigned char protocol;$/;"	m	struct:__anon10
+quota_size	.\src\common\fs_defs.h	/^    uint64_t quota_size;$/;"	m	struct:__anon1
+quota_size	.\src\dynamic_libs\fs_defs.h	/^    uint64_t quota_size;$/;"	m	struct:__anon4
+r	.\src\dynamic_libs\gx2_types.h	/^    f32 r, g, b, a;$/;"	m	struct:_GX2ColorF32
+r	.\src\dynamic_libs\gx2_types.h	/^    u8 r, g, b, a;$/;"	m	struct:_GX2Color
+rc	.\src\keyboard.h	/^	char rc;$/;"	m	struct:renderFlags
+read	.\src\fs\sd_fat_devoptab.c	/^    bool read;                                  \/* True if allowed to read from file *\/$/;"	m	struct:_sd_fat_file_state_t	file:
+reg	.\src\dynamic_libs\gx2_types.h	/^    u32 reg;$/;"	m	struct:_GX2FetchShader
+regs	.\src\dynamic_libs\gx2_types.h	/^    u32 regs[3];$/;"	m	struct:_GX2Sampler
+regs	.\src\dynamic_libs\gx2_types.h	/^    u32 regs[41];$/;"	m	struct:_GX2PixelShader
+regs	.\src\dynamic_libs\gx2_types.h	/^    u32 regs[52];$/;"	m	struct:_GX2VertexShader
+regs	.\src\dynamic_libs\gx2_types.h	/^    u32 regs[5];$/;"	m	struct:_GX2ColorBuffer
+regs	.\src\dynamic_libs\gx2_types.h	/^    u32 regs[5];$/;"	m	struct:_GX2Texture
+regs	.\src\dynamic_libs\gx2_types.h	/^    u32 regs[7];$/;"	m	struct:_GX2DepthBuffer
+render	.\src\keyboard.c	/^void render(struct renderFlags *flags)$/;"	f
+renderFlags	.\src\keyboard.h	/^struct renderFlags {$/;"	s
+rstick	.\src\dynamic_libs\vpad_functions.h	/^    Vec2D lstick, rstick;        \/* Each contains 4-byte X and Y components *\/$/;"	m	struct:__anon13
+rstick_x	.\src\dynamic_libs\padscore_functions.h	/^            f32 rstick_x;$/;"	m	struct:_KPADData::__anon6::__anon8
+rstick_x	.\src\dynamic_libs\padscore_functions.h	/^            f32 rstick_x;$/;"	m	struct:_KPADData::__anon6::__anon9
+rstick_y	.\src\dynamic_libs\padscore_functions.h	/^            f32 rstick_y;$/;"	m	struct:_KPADData::__anon6::__anon8
+rstick_y	.\src\dynamic_libs\padscore_functions.h	/^            f32 rstick_y;$/;"	m	struct:_KPADData::__anon6::__anon9
+rtrigger	.\src\dynamic_libs\padscore_functions.h	/^            f32 rtrigger;$/;"	m	struct:_KPADData::__anon6::__anon8
+s_addr	.\src\dynamic_libs\socket_functions.h	/^    unsigned int s_addr;$/;"	m	struct:in_addr
+sa_data	.\src\dynamic_libs\socket_functions.h	/^   char sa_data[14];$/;"	m	struct:sockaddr
+sa_family	.\src\dynamic_libs\socket_functions.h	/^   unsigned short sa_family;$/;"	m	struct:sockaddr
+sampler_type	.\src\dynamic_libs\gx2_types.h	/^    s32 sampler_type;$/;"	m	struct:_GX2SamplerVar
+sampler_var	.\src\dynamic_libs\gx2_types.h	/^    GX2SamplerVar *sampler_var;$/;"	m	struct:_GX2PixelShader
+sampler_var	.\src\dynamic_libs\gx2_types.h	/^    GX2SamplerVar *sampler_var;$/;"	m	struct:_GX2VertexShader
+sampler_vars_count	.\src\dynamic_libs\gx2_types.h	/^    u32 sampler_vars_count;$/;"	m	struct:_GX2PixelShader
+sampler_vars_count	.\src\dynamic_libs\gx2_types.h	/^    u32 sampler_vars_count;$/;"	m	struct:_GX2VertexShader
+sd_fat_add_device	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_add_device (const char *name, const char *mount_path, void *pClient, void *pCmd)$/;"	f	file:
+sd_fat_chdir_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_chdir_r (struct _reent *r, const char *name)$/;"	f	file:
+sd_fat_close_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_close_r (struct _reent *r, int fd)$/;"	f	file:
+sd_fat_dir_entry_t	.\src\fs\sd_fat_devoptab.c	/^} sd_fat_dir_entry_t;$/;"	t	typeref:struct:_sd_fat_dir_entry_t	file:
+sd_fat_dirclose_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_dirclose_r (struct _reent *r, DIR_ITER *dirState)$/;"	f	file:
+sd_fat_dirnext_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_dirnext_r (struct _reent *r, DIR_ITER *dirState, char *filename, struct stat *st)$/;"	f	file:
+sd_fat_diropen_r	.\src\fs\sd_fat_devoptab.c	/^static DIR_ITER *sd_fat_diropen_r (struct _reent *r, DIR_ITER *dirState, const char *path)$/;"	f	file:
+sd_fat_dirreset_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_dirreset_r (struct _reent *r, DIR_ITER *dirState)$/;"	f	file:
+sd_fat_file_state_t	.\src\fs\sd_fat_devoptab.c	/^} sd_fat_file_state_t;$/;"	t	typeref:struct:_sd_fat_file_state_t	file:
+sd_fat_fstat_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_fstat_r (struct _reent *r, int fd, struct stat *st)$/;"	f	file:
+sd_fat_fsync_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_fsync_r (struct _reent *r, int fd)$/;"	f	file:
+sd_fat_ftruncate_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_ftruncate_r (struct _reent *r, int fd, off_t len)$/;"	f	file:
+sd_fat_get_device_data	.\src\fs\sd_fat_devoptab.c	/^static sd_fat_private_t *sd_fat_get_device_data(const char *path)$/;"	f	file:
+sd_fat_link_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_link_r (struct _reent *r, const char *existing, const char *newLink)$/;"	f	file:
+sd_fat_mkdir_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_mkdir_r (struct _reent *r, const char *path, int mode)$/;"	f	file:
+sd_fat_open_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_open_r (struct _reent *r, void *fileStruct, const char *path, int flags, int mode)$/;"	f	file:
+sd_fat_private_t	.\src\fs\sd_fat_devoptab.c	/^} sd_fat_private_t;$/;"	t	typeref:struct:_sd_fat_private_t	file:
+sd_fat_read_r	.\src\fs\sd_fat_devoptab.c	/^static ssize_t sd_fat_read_r (struct _reent *r, int fd, char *ptr, size_t len)$/;"	f	file:
+sd_fat_real_path	.\src\fs\sd_fat_devoptab.c	/^static char *sd_fat_real_path (const char *path, sd_fat_private_t *dev)$/;"	f	file:
+sd_fat_remove_device	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_remove_device (const char *path, void **pClient, void **pCmd, char **mountPath)$/;"	f	file:
+sd_fat_rename_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_rename_r (struct _reent *r, const char *oldName, const char *newName)$/;"	f	file:
+sd_fat_seek_r	.\src\fs\sd_fat_devoptab.c	/^static off_t sd_fat_seek_r (struct _reent *r, int fd, off_t pos, int dir)$/;"	f	file:
+sd_fat_stat_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_stat_r (struct _reent *r, const char *path, struct stat *st)$/;"	f	file:
+sd_fat_statvfs_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_statvfs_r (struct _reent *r, const char *path, struct statvfs *buf)$/;"	f	file:
+sd_fat_unlink_r	.\src\fs\sd_fat_devoptab.c	/^static int sd_fat_unlink_r (struct _reent *r, const char *name)$/;"	f	file:
+sd_fat_write_r	.\src\fs\sd_fat_devoptab.c	/^static ssize_t sd_fat_write_r (struct _reent *r, int fd, const char *ptr, size_t len)$/;"	f	file:
+sec	.\src\dynamic_libs\os_types.h	/^  int sec;$/;"	m	struct:_OSCalendarTime
+shader_data	.\src\dynamic_libs\gx2_types.h	/^    void *shader_data;$/;"	m	struct:_GX2PixelShader
+shader_data	.\src\dynamic_libs\gx2_types.h	/^    void *shader_data;$/;"	m	struct:_GX2VertexShader
+shader_mode	.\src\dynamic_libs\gx2_types.h	/^    s32 shader_mode;$/;"	m	struct:_GX2PixelShader
+shader_mode	.\src\dynamic_libs\gx2_types.h	/^    s32 shader_mode;$/;"	m	struct:_GX2VertexShader
+shader_program	.\src\dynamic_libs\gx2_types.h	/^    void *shader_program;$/;"	m	struct:_GX2FetchShader
+shader_program_buffer	.\src\dynamic_libs\gx2_types.h	/^    u32 shader_program_buffer[16];$/;"	m	struct:_GX2PixelShader
+shader_program_buffer	.\src\dynamic_libs\gx2_types.h	/^    u32 shader_program_buffer[16];$/;"	m	struct:_GX2VertexShader
+shader_size	.\src\dynamic_libs\gx2_types.h	/^    u32 shader_size;$/;"	m	struct:_GX2FetchShader
+shader_size	.\src\dynamic_libs\gx2_types.h	/^    u32 shader_size;$/;"	m	struct:_GX2PixelShader
+shader_size	.\src\dynamic_libs\gx2_types.h	/^    u32 shader_size;$/;"	m	struct:_GX2VertexShader
+sin_addr	.\src\dynamic_libs\socket_functions.h	/^    struct in_addr sin_addr;$/;"	m	struct:sockaddr_in	typeref:struct:sockaddr_in::in_addr
+sin_family	.\src\dynamic_libs\socket_functions.h	/^    short sin_family;$/;"	m	struct:sockaddr_in
+sin_port	.\src\dynamic_libs\socket_functions.h	/^    unsigned short sin_port;$/;"	m	struct:sockaddr_in
+sin_zero	.\src\dynamic_libs\socket_functions.h	/^    char sin_zero[8];$/;"	m	struct:sockaddr_in
+size	.\src\common\fs_defs.h	/^    uint32_t size;$/;"	m	struct:__anon1
+size	.\src\dynamic_libs\fs_defs.h	/^    uint32_t size;$/;"	m	struct:__anon4
+sleep	.\src\dynamic_libs\os_functions.h	41;"	d
+sockaddr	.\src\dynamic_libs\socket_functions.h	/^struct sockaddr$/;"	s
+sockaddr_in	.\src\dynamic_libs\socket_functions.h	/^struct sockaddr_in {$/;"	s
+socklen_t	.\src\dynamic_libs\curl_functions.h	/^typedef int socklen_t;$/;"	t
+sound_handle	.\src\dynamic_libs\ax_functions.c	/^unsigned int sound_handle __attribute__((section(".data"))) = 0;$/;"	v
+stat	.\src\common\fs_defs.h	/^    FSStat      stat;$/;"	m	struct:__anon2
+stat	.\src\dynamic_libs\fs_defs.h	/^    FSStat      stat;$/;"	m	struct:__anon5
+stick_x	.\src\dynamic_libs\padscore_functions.h	/^            f32 stick_x;$/;"	m	struct:_KPADData::__anon6::__anon7
+stick_y	.\src\dynamic_libs\padscore_functions.h	/^            f32 stick_y;$/;"	m	struct:_KPADData::__anon6::__anon7
+sub_class	.\src\dynamic_libs\syshid_functions.h	/^	unsigned char sub_class;$/;"	m	struct:__anon10
+surface	.\src\dynamic_libs\gx2_types.h	/^    GX2Surface surface;$/;"	m	struct:_GX2ColorBuffer
+surface	.\src\dynamic_libs\gx2_types.h	/^    GX2Surface surface;$/;"	m	struct:_GX2DepthBuffer
+surface	.\src\dynamic_libs\gx2_types.h	/^    GX2Surface surface;$/;"	m	struct:_GX2Texture
+swizzle	.\src\dynamic_libs\gx2_types.h	/^    u32 swizzle;$/;"	m	struct:_GX2Surface
+sysapp_handle	.\src\dynamic_libs\sys_functions.c	/^ unsigned int sysapp_handle __attribute__((section(".data"))) = 0;$/;"	v
+syshid_handle	.\src\dynamic_libs\syshid_functions.c	/^unsigned int syshid_handle __attribute__((section(".data"))) = 0;$/;"	v
+text	.\src\keyboard.h	/^	char text[256];$/;"	m	struct:renderFlags
+textLength	.\src\keyboard.h	/^	int textLength;$/;"	m	struct:renderFlags
+texture_comp_selector	.\src\dynamic_libs\gx2_types.h	/^static const u32 texture_comp_selector[54] = {$/;"	v
+theme	.\src\keyboard.h	/^	char theme[32];$/;"	m	struct:renderFlags
+tile	.\src\dynamic_libs\gx2_types.h	/^    s32 tile;$/;"	m	struct:_GX2Surface
+title_ID	.\src\dynamic_libs\aoc_functions.h	/^    u64     title_ID;$/;"	m	struct:__anon3
+touch	.\src\keyboard.h	/^	int touch;$/;"	m	struct:renderFlags
+touched	.\src\dynamic_libs\vpad_functions.h	/^    u16 touched;            \/* 1 = Touched, 0 = Not touched *\/$/;"	m	struct:__anon12
+touching	.\src\keyboard.h	/^	char touching[32];$/;"	m	struct:renderFlags
+tpdata	.\src\dynamic_libs\vpad_functions.h	/^    VPADTPData tpdata;           \/* Normal touchscreen data *\/$/;"	m	struct:__anon13
+tpdata1	.\src\dynamic_libs\vpad_functions.h	/^    VPADTPData tpdata1;          \/* Modified touchscreen data 1 *\/$/;"	m	struct:__anon13
+tpdata2	.\src\dynamic_libs\vpad_functions.h	/^    VPADTPData tpdata2;          \/* Modified touchscreen data 2 *\/$/;"	m	struct:__anon13
+tty_clear	.\src\screen\tty.c	/^void tty_clear(u32 color)$/;"	f
+tty_draw_char	.\src\screen\tty.c	/^void tty_draw_char(char c, u32 x, u32 y)$/;"	f
+tty_end	.\src\screen\tty.c	/^void tty_end()$/;"	f
+tty_flip	.\src\screen\tty.c	/^void tty_flip()$/;"	f
+tty_init	.\src\screen\tty.c	/^void tty_init()$/;"	f
+tty_print_char	.\src\screen\tty.c	/^void tty_print_char(char c)$/;"	f
+tty_scroll	.\src\screen\tty.c	/^void tty_scroll()$/;"	f
+tty_write	.\src\screen\tty.c	/^static ssize_t tty_write(struct _reent *r, int fd, const char *ptr, size_t len)$/;"	f	file:
+type	.\src\dynamic_libs\gx2_types.h	/^    s32 type;$/;"	m	struct:_GX2FetchShader
+uniform_block	.\src\dynamic_libs\gx2_types.h	/^    GX2UniformBlock *uniform_block;$/;"	m	struct:_GX2PixelShader
+uniform_block	.\src\dynamic_libs\gx2_types.h	/^    GX2UniformBlock *uniform_block;$/;"	m	struct:_GX2VertexShader
+uniform_blocks_count	.\src\dynamic_libs\gx2_types.h	/^    u32 uniform_blocks_count;$/;"	m	struct:_GX2PixelShader
+uniform_blocks_count	.\src\dynamic_libs\gx2_types.h	/^    u32 uniform_blocks_count;$/;"	m	struct:_GX2VertexShader
+uniform_var	.\src\dynamic_libs\gx2_types.h	/^    GX2UniformVar *uniform_var;$/;"	m	struct:_GX2PixelShader
+uniform_var	.\src\dynamic_libs\gx2_types.h	/^    GX2UniformVar *uniform_var;$/;"	m	struct:_GX2VertexShader
+uniform_vars_count	.\src\dynamic_libs\gx2_types.h	/^    u32 uniform_vars_count;$/;"	m	struct:_GX2PixelShader
+uniform_vars_count	.\src\dynamic_libs\gx2_types.h	/^    u32 uniform_vars_count;$/;"	m	struct:_GX2VertexShader
+unk_volume	.\src\dynamic_libs\vpad_functions.h	/^    uint8_t unk_volume;          \/* One less than volume *\/$/;"	m	struct:__anon13
+unknown1c	.\src\dynamic_libs\vpad_functions.h	/^    char unknown1c[0x52 - 0x1c]; \/* Contains accelerometer and gyroscope data somewhere *\/$/;"	m	struct:__anon13
+unknown6a	.\src\dynamic_libs\vpad_functions.h	/^    char unknown6a[0xa0 - 0x6a];$/;"	m	struct:__anon13
+unknowna4	.\src\dynamic_libs\vpad_functions.h	/^    char unknowna4[0xac - 0xa4];$/;"	m	struct:__anon13
+unmount_sd_fat	.\src\fs\sd_fat_devoptab.c	/^int unmount_sd_fat(const char *path)$/;"	f
+unused_1	.\src\dynamic_libs\padscore_functions.h	/^    u32 unused_1[5];$/;"	m	struct:_KPADData
+unused_2	.\src\dynamic_libs\padscore_functions.h	/^    u32 unused_2[3];$/;"	m	struct:_KPADData
+unused_3	.\src\dynamic_libs\padscore_functions.h	/^    u32 unused_3[8];$/;"	m	struct:_KPADData
+unused_6	.\src\dynamic_libs\padscore_functions.h	/^        u32 unused_6[20];$/;"	m	union:_KPADData::__anon6
+unused_7	.\src\dynamic_libs\padscore_functions.h	/^    u32 unused_7[16];$/;"	m	struct:_KPADData
+update_buttons	.\src\easy\vpad.h	13;"	d
+use	.\src\dynamic_libs\gx2_types.h	/^    s32 use;$/;"	m	struct:_GX2Surface
+usec	.\src\dynamic_libs\os_types.h	/^  int usec;$/;"	m	struct:_OSCalendarTime
+usleep	.\src\dynamic_libs\os_functions.h	40;"	d
+value	.\src\dynamic_libs\gx2_types.h	/^    f32 value[4];$/;"	m	struct:_GX2UniformInitialValue
+var_type	.\src\dynamic_libs\gx2_types.h	/^    s32 var_type;$/;"	m	struct:_GX2AttribVar
+var_type	.\src\dynamic_libs\gx2_types.h	/^    s32 var_type;$/;"	m	struct:_GX2UniformVar
+version	.\src\dynamic_libs\aoc_functions.h	/^    u16     version;$/;"	m	struct:__anon3
+vid	.\src\dynamic_libs\syshid_functions.h	/^	unsigned short vid;$/;"	m	struct:__anon10
+view_first_mip	.\src\dynamic_libs\gx2_types.h	/^    u32 view_first_mip;$/;"	m	struct:_GX2Texture
+view_first_slice	.\src\dynamic_libs\gx2_types.h	/^    u32 view_first_slice;$/;"	m	struct:_GX2ColorBuffer
+view_first_slice	.\src\dynamic_libs\gx2_types.h	/^    u32 view_first_slice;$/;"	m	struct:_GX2DepthBuffer
+view_first_slice	.\src\dynamic_libs\gx2_types.h	/^    u32 view_first_slice;$/;"	m	struct:_GX2Texture
+view_mip	.\src\dynamic_libs\gx2_types.h	/^    u32 view_mip;$/;"	m	struct:_GX2ColorBuffer
+view_mip	.\src\dynamic_libs\gx2_types.h	/^    u32 view_mip;$/;"	m	struct:_GX2DepthBuffer
+view_mips_count	.\src\dynamic_libs\gx2_types.h	/^    u32 view_mips_count;$/;"	m	struct:_GX2Texture
+view_slices_count	.\src\dynamic_libs\gx2_types.h	/^    u32 view_slices_count;$/;"	m	struct:_GX2ColorBuffer
+view_slices_count	.\src\dynamic_libs\gx2_types.h	/^    u32 view_slices_count;$/;"	m	struct:_GX2DepthBuffer
+view_slices_count	.\src\dynamic_libs\gx2_types.h	/^    u32 view_slices_count;$/;"	m	struct:_GX2Texture
+volume	.\src\dynamic_libs\vpad_functions.h	/^    uint8_t volume;$/;"	m	struct:__anon13
+vpad_data	.\src\easy\vpad.h	/^VPADData vpad_data;$/;"	v
+vpad_error	.\src\easy\vpad.h	/^int vpad_error;$/;"	v
+vpad_handle	.\src\dynamic_libs\vpad_functions.c	/^unsigned int vpad_handle __attribute__((section(".data"))) = 0;$/;"	v
+vpadbase_handle	.\src\dynamic_libs\vpad_functions.c	/^unsigned int vpadbase_handle __attribute__((section(".data"))) = 0;$/;"	v
+wday	.\src\dynamic_libs\os_types.h	/^  int wday;$/;"	m	struct:_OSCalendarTime
+width	.\src\dynamic_libs\gx2_types.h	/^    u32 width;$/;"	m	struct:_GX2Surface
+wired	.\src\dynamic_libs\padscore_functions.h	/^            int wired;$/;"	m	struct:_KPADData::__anon6::__anon9
+wpad_connect_callback_t	.\src\dynamic_libs\padscore_functions.h	/^typedef void (* wpad_connect_callback_t)(s32 chan, s32 status);$/;"	t
+wpad_error	.\src\dynamic_libs\padscore_functions.h	/^    u8 wpad_error;$/;"	m	struct:_KPADData
+write	.\src\fs\sd_fat_devoptab.c	/^    bool write;                                 \/* True if allowed to write to file *\/$/;"	m	struct:_sd_fat_file_state_t	file:
+x	.\src\dynamic_libs\vpad_functions.h	/^    f32 x,y;$/;"	m	struct:__anon11
+x	.\src\dynamic_libs\vpad_functions.h	/^    u16 x, y;               \/* Touch coordinates *\/$/;"	m	struct:__anon12
+x	.\src\keyboard.h	/^	int x;$/;"	m	struct:renderFlags
+xTouched	.\src\keyboard.h	/^	int xTouched;$/;"	m	struct:renderFlags
+y	.\src\dynamic_libs\vpad_functions.h	/^    f32 x,y;$/;"	m	struct:__anon11
+y	.\src\dynamic_libs\vpad_functions.h	/^    u16 x, y;               \/* Touch coordinates *\/$/;"	m	struct:__anon12
+yday	.\src\dynamic_libs\os_types.h	/^  int yday;$/;"	m	struct:_OSCalendarTime
+year	.\src\dynamic_libs\os_types.h	/^  int year;$/;"	m	struct:_OSCalendarTime

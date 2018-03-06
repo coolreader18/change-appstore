@@ -83,6 +83,7 @@ EXPORT_DECL(int, OSScreenClearBufferEx, unsigned int bufferNum, unsigned int tem
 EXPORT_DECL(int, OSScreenFlipBuffersEx, unsigned int bufferNum);
 EXPORT_DECL(int, OSScreenPutFontEx, unsigned int bufferNum, unsigned int posX, unsigned int posY, const char * buffer);
 EXPORT_DECL(int, OSScreenEnableEx, unsigned int bufferNum, int enable);
+EXPORT_DECL(int, OSScreenPutPixelEx, unsigned int bufferNum, unsigned int posX, unsigned int posY, unsigned int colour);
 
 //!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //! Memory functions
@@ -182,6 +183,7 @@ void InitOSFunctionPointers(void)
     OS_FIND_EXPORT(coreinit_handle, OSScreenFlipBuffersEx);
     OS_FIND_EXPORT(coreinit_handle, OSScreenPutFontEx);
     OS_FIND_EXPORT(coreinit_handle, OSScreenEnableEx);
+    OS_FIND_EXPORT(coreinit_handle, OSScreenPutPixelEx);
     //!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     //! Thread functions
     //!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -124,6 +124,7 @@ extern int (*OSScreenClearBufferEx)(unsigned int bufferNum, unsigned int temp);
 extern int (*OSScreenFlipBuffersEx)(unsigned int bufferNum);
 extern int (*OSScreenPutFontEx)(unsigned int bufferNum, unsigned int posX, unsigned int posY, const char * buffer);
 extern int (*OSScreenEnableEx)(unsigned int bufferNum, int enable);
+extern int (*OSScreenPutPixelEx)(unsigned int bufferNum, unsigned int posX, unsigned int posY, unsigned int colour);
 
 typedef unsigned char (*exception_callback)(void * interruptedContext);
 extern void (* OSSetExceptionCallback)(u8 exceptionType, exception_callback newCallback);
