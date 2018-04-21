@@ -21,47 +21,57 @@
 #include "common/common.h"
 #include "keyboard.h"
 
-int Menu_Main(void) {
-  FILE * fp;
+int Menu_Main(void)
+{
+  FILE *fp;
   fp = fopen("sd:/wiiu/apps/appstore/repository.txt", "w");
 
   printf(
-    "Welcome to the HBL Appstore Repository Changer. Press a button to choose which repository to switch to.\n"
-  );
+      "Welcome to the HBL Appstore Repository Changer. Press a button to choose which repository to switch to.\n");
   printf("A - Wiiubru (default) \n");
   printf("B - Utools \n");
   printf("X - Wii U Utilities \n");
   printf("Y - vgmoose \n");
   printf("Home - exit application \n");
 
-  void changeRepo(char url[32], int button) {
+  void changeRepo(char url[32], int button)
+  {
     fp = freopen("sd:/wiiu/apps/appstore/repository.txt", "w", fp);
     fprintf(fp, url);
     printf("Changed repository to %s \n", url);
     if (button)
-      while (1) {
+      while (1)
+      {
         update_buttons();
-        if (!button_pressed(button)) break;
+        if (!button_pressed(button))
+          break;
       }
-  }
+  };
 
-  while (1) {
+  while (1)
+  {
     update_buttons();
 
-    if (button_pressed(VPAD_BUTTON_HOME)) break;
-    if (button_pressed(VPAD_BUTTON_A)) {
+    if (button_pressed(VPAD_BUTTON_HOME))
+      break;
+    if (button_pressed(VPAD_BUTTON_A))
+    {
       changeRepo("http://wiiubru.com/appstore", VPAD_BUTTON_R);
     }
-    if (button_pressed(VPAD_BUTTON_B)) {
+    if (button_pressed(VPAD_BUTTON_B))
+    {
       changeRepo("http://coc4tm.github.io/Utools/web/", VPAD_BUTTON_B);
     }
-    if (button_pressed(VPAD_BUTTON_X)) {
+    if (button_pressed(VPAD_BUTTON_X))
+    {
       changeRepo("http://wiiu.3utilities.com", VPAD_BUTTON_X);
     }
-    if (button_pressed(VPAD_BUTTON_Y)) {
+    if (button_pressed(VPAD_BUTTON_Y))
+    {
       changeRepo("http://hbas.vgmoose.com", VPAD_BUTTON_Y);
     }
-    if (button_pressed(VPAD_BUTTON_R)) {
+    if (button_pressed(VPAD_BUTTON_R))
+    {
       InitOSFunctionPointers();
       InitVPadFunctionPointers();
       memory_init();
@@ -74,7 +84,8 @@ int Menu_Main(void) {
       OSScreenSetBufferEx(0, (void *)0xF4000000);
       OSScreenSetBufferEx(1, (void *)0xF4000000 + buf0_size);
       //Clear both framebuffers.
-      for (int i = 0; i < 2; i++) {
+      for (int i = 0; i < 2; i++)
+      {
         fillScreen(0, 0, 0, 0);
         flipBuffers();
       }
